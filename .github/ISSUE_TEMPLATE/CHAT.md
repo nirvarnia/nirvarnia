@@ -1,5 +1,5 @@
 ---
-name: Chat
+name: CHAT
 about: Start a general discussion about this project
 title: ''
 labels: CHAT

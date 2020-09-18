@@ -1,5 +1,5 @@
 ---
-name: Support
+name: SUPPORT
 about: Request technical help
 title: ''
 labels: SUPPORT

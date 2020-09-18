@@ -1,5 +1,5 @@
 ---
-name: Feature
+name: FEATURE
 about: Propose a change or enhancement to existing behaviour
 title: ''
 labels: FEATURE

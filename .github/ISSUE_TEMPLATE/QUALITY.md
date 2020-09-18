@@ -1,5 +1,5 @@
 ---
-name: Quality
+name: QUALITY ATTRIBUTES
 about: Log technical debt or suggest refactoring or new quality controls
 title: ''
 labels: QUALITY

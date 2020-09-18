@@ -1,5 +1,5 @@
 ---
-name: Bug
+name: BUG
 about: Report an error or regression in the expected behaviour of an existing feature
 title: ''
 labels: BUG
