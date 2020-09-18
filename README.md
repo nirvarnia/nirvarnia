@@ -3,13 +3,9 @@
 
 # Nirvarnia
 
-**Optional tagline here.**
+**Nirvarnia is a design system for the graphical user interfaces of web applications.**
 
-Fusce lacinia felis ultricies gravida vestibulum. Nam egestas venenatis malesuada. Quisque sed dui sit amet risus egestas imperdiet. Aliquam erat felis, rhoncus sed eleifend a, auctor in lectus.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis dolor non justo sodales gravida. Aliquam ac pulvinar ipsum. Vivamus quis mi arcu. Phasellus eget dignissim eros. Nullam erat ligula, maximus et imperdiet vel, pharetra a elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-
-Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristique odio. Mauris vehicula orci a tortor tincidunt, consectetur ornare massa rhoncus. Pellentesque eu augue tellus. Aenean cursus dapibus magna.
+This code repository is a mono repo, encapsulating the source code for all the independent packages that make up the Nirvarnia framework, plus all its consumer-facing documentation.
 
 
 ## Documentation
