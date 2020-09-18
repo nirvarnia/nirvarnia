@@ -1,8 +1,8 @@
 ---
 name: Bug
-about: Report an error
+about: Report an error or regression in the expected behaviour of an existing feature
 title: ''
-labels: bug
+labels: BUG
 assignees: ''
 ---
 

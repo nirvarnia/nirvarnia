@@ -1,8 +1,8 @@
 ---
 name: Chat
-about: Start a discussion
+about: Start a general discussion about this project
 title: ''
-labels: chat
+labels: CHAT
 assignees: ''
 ---
 

@@ -1,8 +1,8 @@
 ---
 name: Quality
-about: Log technical debt
+about: Log technical debt or suggest refactoring or new quality controls
 title: ''
-labels: quality
+labels: QUALITY
 assignees: ''
 ---
 

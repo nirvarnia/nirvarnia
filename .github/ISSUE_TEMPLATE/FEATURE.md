@@ -1,8 +1,8 @@
 ---
 name: Feature
-about: Suggest functional changes
+about: Propose a change or enhancement to existing behaviour
 title: ''
-labels: feature
+labels: FEATURE
 assignees: ''
 ---
 
