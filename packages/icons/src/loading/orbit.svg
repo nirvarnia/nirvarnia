@@ -1,0 +1,24 @@
+<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        /* <![CDATA[ */
+        @keyframes animate {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+        #orbit {
+          fill-opacity: 0.1;
+        }
+        #moon {
+          animation: animate 2s infinite linear;
+          transform-origin: 50% 50%;
+        }
+        /* ]]> */
+    </style>
+    <title>Loading</title>
+    <path id="orbit" d="M12,1C5.925,1 1,5.925 1,12C1,18.076 5.925,23 12,23C18.075,23 23,18.076 23,12C22.999,5.925 18.075,1 12,1ZM12,20.563C7.271,20.563 3.437,16.729 3.437,12C3.437,7.271 7.271,3.437 12,3.437C16.729,3.437 20.562,7.271 20.562,12C20.562,16.729 16.729,20.563 12,20.563Z"/>
+    <circle id="moon" cx="12" cy="2.5" r="2.524"/>
+</svg>
