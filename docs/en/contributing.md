@@ -18,7 +18,9 @@ By participating in this project you accept the [Contributor License Agreement](
 
 #### Ask questions
 
-Everyone is welcome to ask questions and initiate discussions about the project via the issue tracker.
+We don't have an official discussion forum or social channel for this software project. Instead, you are welcome to use the issue tracker to initiate discussion threads with the community.
+
+Everyone is welcome to ask technical questions about the project via the issue tracker.
 
 If you require technical support, please first search for an answer in the issue tracker and on popular external Q&A sites such as [StackOverflow](https://stackoverflow.com/). If you can't find a solution, please go ahead and ask your question by opening a new issue.
 

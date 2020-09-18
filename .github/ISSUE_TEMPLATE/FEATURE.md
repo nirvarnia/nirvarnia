@@ -67,6 +67,15 @@ Given I am logged in as a team member
 ```
 
 
+## Packages
+
+> Which Nirvarnia packages would be affected? Check `[x]` all that apply:
+
+- [ ] @nirvanira/icons
+- [ ] @nirvarnia/reset
+- [ ] New packages would need to be developed
+
+
 ## Contribute?
 
 > Are you able to contribute the required source code changes yourself? Check one box `[x]`:

@@ -11,6 +11,14 @@ assignees: ''
 > Use the following template to add a work item to the backlog. Backlog work typically involves refactoring source code, upgrading dependencies, and extending the coverage of tests and documentation. Delete any sections from the template that are not applicable.
 
 
+## Packages
+
+> Which Nirvarnia packages are affected? Check `[x]` all that apply:
+
+- [ ] @nirvanira/icons
+- [ ] @nirvarnia/reset
+
+
 ## Materials
 
 > Which of the following source materials have problems that need addressing? Check one or more items `[x]`:

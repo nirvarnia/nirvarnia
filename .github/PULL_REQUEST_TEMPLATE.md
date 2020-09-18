@@ -3,6 +3,15 @@ Resolves #[issue]
 > Use the following template to provide information about the changes you are introducing to the software. Delete any sections from the template that are not applicable.
 
 
+## Packages
+
+> Which Nirvarnia packages will be modified by this PR? Check `[x]` all that apply:
+
+- [ ] @nirvanira/icons
+- [ ] @nirvarnia/reset
+- [ ] This change introduces one or more new packages
+
+
 ## Summary of changes
 
 > Summarise the changes being introduced:

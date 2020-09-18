@@ -11,6 +11,14 @@ assignees: ''
 > Use this template to record a suspected bug in the software. Delete any sections from the template that are not applicable.
 
 
+## Packages
+
+> Which Nirvarnia packages are affected? Check `[x]` all that apply:
+
+- [ ] @nirvanira/icons
+- [ ] @nirvarnia/reset
+
+
 ## Instructions
 
 > Follow these steps to reproduce the error:

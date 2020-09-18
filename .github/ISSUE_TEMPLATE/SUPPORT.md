@@ -9,6 +9,14 @@ assignees: ''
 > Use this issue to request technical help. The project maintainers review all technical support enquiries, but we regret it is not possible to provide support free-of-charge in all cases.
 
 
+## Packages
+
+> Which Nirvarnia packages is this about? Check `[x]` all that apply:
+
+- [ ] @nirvanira/icons
+- [ ] @nirvarnia/reset
+
+
 ## Checklist
 
 > Please confirm the following by checking all the boxes `[x]`:
