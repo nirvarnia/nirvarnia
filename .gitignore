@@ -13,6 +13,8 @@
 # System-generated files.
 
 .DS_Store
+*.seed
+*.swp
 Thumbs.db
 
 # Backups and temporary files.
@@ -60,7 +62,13 @@ lib-cov
 
 # Vendor components installed via package managers.
 
+bower_components
+dependencies
+jspm_packages
 node_modules
+packages
+vendor
+vendors
 
 # Environment-specific configurations.
 
@@ -68,4 +76,8 @@ node_modules
 
 # Build output and distributable bundles.
 
+build
 dist
+.next
+public
+*.tgz
