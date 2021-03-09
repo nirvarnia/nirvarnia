@@ -16,37 +16,6 @@ This code repository is a mono repo, encapsulating the source code for all the i
 
 ## Documentation
 
-#### Overview
-
-- [Introduction](docs/en/introduction.md)
-- [Features](docs/en/features.md)
-- [Compatibility](docs/en/compatibility.md)
-- [Design principles](docs/en/principles.md)
-- [Architecture](docs/en/architecture.md)
-- [Conventions](docs/en/conventions.md)
-- [License](docs/en/license.md)
-
-#### Usage
-
-- [Get started](docs/en/start.md)
-- [Requirements](docs/en/requirements.md)
-- [Installation](docs/en/installation.md)
-- [Configuration](docs/en/configuration.md)
-- [Updating](docs/en/updating.md)
-- [Migrations](docs/en/migrations.md)
-
-#### Contributing 
-
-- [Change management workflow](docs/en/workflow.md)
-- [How to contribute](docs/en/contributing.md)
-- [Filesystem structure](docs/en/structure.md)
-- [Style guide](docs/en/style-guide.md)
-- [Building](docs/en/build.md)
-- [Testing](docs/en/testing.md)
-- [Contributor license agreement](docs/en/cla.md)
-- [Code of conduct](docs/en/code-of-conduct.md)
-- [Acknowledgements](docs/en/acknowledgements.md)
-
 ----
 
 Crafted with ❤ in Bristol, UK
