@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the font-family property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.font-family\=default   { font-family: var(--reset-default-font-family)   }
+.font-family\=monospace { font-family: var(--reset-monospace-font-family) }

@@ -1,0 +1,14 @@
+/**
+ * Utility classes for the align-items property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.align-items\=baseline   { align-items: baseline   }
+.align-items\=center     { align-items: center     }
+.align-items\=flex-end   { align-items: flex-end   }
+.align-items\=flex-start { align-items: flex-start }
+.align-items\=stretch    { align-items: stretch    }

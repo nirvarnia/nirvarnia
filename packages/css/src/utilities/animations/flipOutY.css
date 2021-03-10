@@ -1,0 +1,17 @@
+/**
+ * "flipOutY" animation.
+ *
+ * Adapted from {@link https://daneden.github.io/animate.css/|Animate.css}.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2018 Daniel Eden
+ * @license   MIT
+ */
+
+.animation\=flipOutY {
+  animation-duration: .75s;
+  animation-fill-mode: both;
+  backface-visibility: visible !important;
+  animation-name: flipOutY;
+}

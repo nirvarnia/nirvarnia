@@ -1,0 +1,14 @@
+/**
+ * Utility classes for the justify-content property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.justify-content\=center        { justify-content: center        }
+.justify-content\=flex-end      { justify-content: flex-end      }
+.justify-content\=flex-start    { justify-content: flex-start    }
+.justify-content\=space-around  { justify-content: space-around  }
+.justify-content\=space-between { justify-content: space-between }

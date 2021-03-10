@@ -1,0 +1,16 @@
+/**
+ * A utility class to apply the modern clearfix hack.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+*.clearfix {
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}

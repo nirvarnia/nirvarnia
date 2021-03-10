@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the word-wrap property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.word-wrap\=break-word { word-wrap: break-word }
+.word-wrap\=normal     { word-wrap: normal     }

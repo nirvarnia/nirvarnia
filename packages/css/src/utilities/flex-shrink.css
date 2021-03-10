@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the flex-shrink property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.flex-shrink\=0 { flex-shrink: 0 }
+.flex-shrink\=1 { flex-shrink: 1 }

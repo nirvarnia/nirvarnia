@@ -1,0 +1,12 @@
+/**
+ * Utility classes for the background-size property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.background-size\=auto    { background-size: auto    }
+.background-size\=contain { background-size: contain }
+.background-size\=cover   { background-size: cover   }

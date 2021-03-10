@@ -1,0 +1,15 @@
+/**
+ * Utility classes for the cursor property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.cursor\=auto        { cursor: auto        }
+.cursor\=default     { cursor: default     }
+.cursor\=move        { cursor: move        }
+.cursor\=not-allowed { cursor: not-allowed }
+.cursor\=pointer     { cursor: pointer     }
+.cursor\=wait        { cursor: wait        }

@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the border-collapse property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.border-collapse\=collapse { border-collapse: collapse }
+.border-collapse\=separate { border-collapse: separate }

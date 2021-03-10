@@ -1,0 +1,12 @@
+/**
+ * Utility classes for the letter-spacing property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.letter-spacing\=-\.05em { letter-spacing: -.05em }
+.letter-spacing\=0       { letter-spacing: 0      }
+.letter-spacing\=\.05em  { letter-spacing: .05em  }

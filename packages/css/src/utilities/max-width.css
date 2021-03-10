@@ -1,0 +1,21 @@
+/**
+ * Utility classes for the max-width property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.max-width\=100\%  { max-width: 100%   }
+
+.max-width\=10rem  { max-width: 10rem  }
+.max-width\=20rem  { max-width: 20rem  }
+.max-width\=30rem  { max-width: 30rem  }
+.max-width\=40rem  { max-width: 40rem  }
+.max-width\=50rem  { max-width: 50rem  }
+.max-width\=60rem  { max-width: 60rem  }
+.max-width\=70rem  { max-width: 70rem  }
+.max-width\=80rem  { max-width: 80rem  }
+.max-width\=90rem  { max-width: 90rem  }
+.max-width\=100rem { max-width: 100rem }

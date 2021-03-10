@@ -1,0 +1,28 @@
+/**
+ * Utility classes to apply heading styles.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.heading\=xxl,
+.heading\=xl,
+.heading\=l,
+.heading\=m,
+.heading\=s,
+.heading\=xs {
+  color: var(--global-headings-text-color);
+  font-family: var(--global-headings-font-family);
+  font-weight: var(--global-headings-font-weight);
+  letter-spacing: var(--global-headings-letter-spacing);
+  line-height: var(--global-headings-line-height);
+}
+
+.heading\=xxl { font-size: var(--global-font-size-xxl) }
+.heading\=xl  { font-size: var(--global-font-size-xl)  }
+.heading\=l   { font-size: var(--global-font-size-l)   }
+.heading\=m   { font-size: var(--global-font-size-m)   }
+.heading\=s   { font-size: var(--global-font-size-s)   }
+.heading\=xs  { font-size: var(--global-font-size-xs)  }

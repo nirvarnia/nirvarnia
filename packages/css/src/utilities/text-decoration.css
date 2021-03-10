@@ -1,0 +1,25 @@
+/**
+ * Utility classes for the text-decoration property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.text-decoration\=line-through { text-decoration: line-through }
+.text-decoration\=none         { text-decoration: none         }
+.text-decoration\=overline     { text-decoration: overline     }
+.text-decoration\=underline    { text-decoration: underline    }
+
+.text-decoration\=underline\:hover {
+  &:hover {
+    text-decoration: underline
+  }
+}
+
+.text-decoration\=underline\:focus {
+  &:focus {
+	text-decoration: underline
+  }
+}

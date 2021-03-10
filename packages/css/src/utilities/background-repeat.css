@@ -1,0 +1,13 @@
+/**
+ * Utility classes for the background-repeat property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.background-repeat\=no-repeat { background-repeat: no-repeat }
+.background-repeat\=repeat    { background-repeat: repeat    }
+.background-repeat\=repeat-x  { background-repeat: repeat-x  }
+.background-repeat\=repeat-y  { background-repeat: repeat-y  }

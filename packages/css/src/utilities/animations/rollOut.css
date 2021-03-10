@@ -1,0 +1,17 @@
+/**
+ * "rollOut" animation.
+ *
+ * Adapted from {@link https://daneden.github.io/animate.css/|Animate.css}.
+ * Originally authored by {@link https://github.com/nickpettit/glide|Nick Pettit}.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2018 Daniel Eden
+ * @license   MIT
+ */
+
+.animation\=rollOut {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: rollOut;
+}

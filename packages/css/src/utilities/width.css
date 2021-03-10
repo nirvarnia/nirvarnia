@@ -1,0 +1,48 @@
+/**
+ * Utility classes for the width property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.width\=auto    { width: auto      }
+.width\=100\%   { width: 100%      }
+.width\=100vw   { width: 100vw     }
+
+.width\=\.25rem { width: .25rem    }
+.width\=\.5rem  { width: .5rem     }
+.width\=\.75rem { width: .75rem    }
+.width\=1rem    { width: 1rem      }
+.width\=1\.5rem { width: 1.5rem    }
+.width\=2rem    { width: 2rem      }
+.width\=2\.5rem { width: 2.5rem    }
+.width\=3rem    { width: 3rem      }
+.width\=4rem    { width: 4rem      }
+.width\=6rem    { width: 6rem      }
+.width\=8rem    { width: 8rem      }
+.width\=12rem   { width: 12rem     }
+.width\=16rem   { width: 16rem     }
+.width\=20rem   { width: 20rem     }
+.width\=24rem   { width: 24rem     }
+.width\=28rem   { width: 28rem     }
+.width\=32rem   { width: 32rem     }
+.width\=36rem   { width: 36rem     }
+.width\=40rem   { width: 40rem     }
+.width\=50rem   { width: 50rem     }
+.width\=60rem   { width: 60rem     }
+.width\=80rem   { width: 80rem     }
+.width\=100rem  { width: 100rem    }
+
+.width\=1\/2    { width: 50%       }
+.width\=1\/3    { width: 33.33333% }
+.width\=2\/3    { width: 66.66667% }
+.width\=1\/4    { width: 25%       }
+.width\=3\/4    { width: 75%       }
+.width\=1\/5    { width: 20%       }
+.width\=2\/5    { width: 40%       }
+.width\=3\/5    { width: 60%       }
+.width\=4\/5    { width: 80%       }
+.width\=1\/6    { width: 16.66667% }
+.width\=5\/6    { width: 83.33333% }

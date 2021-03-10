@@ -1,0 +1,14 @@
+/**
+ * Utility classes to adjust the `animation-delay` property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.animation-delay\=1s { animation-delay: 1s }
+.animation-delay\=2s { animation-delay: 2s }
+.animation-delay\=3s { animation-delay: 3s }
+.animation-delay\=4s { animation-delay: 4s }
+.animation-delay\=5s { animation-delay: 5s }

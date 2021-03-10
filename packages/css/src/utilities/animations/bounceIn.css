@@ -1,0 +1,16 @@
+/**
+ * "bounceIn" animation.
+ *
+ * Adapted from {@link https://daneden.github.io/animate.css/|Animate.css}.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2018 Daniel Eden
+ * @license   MIT
+ */
+
+.animation\=bounceIn {
+  animation-duration: .75s;
+  animation-fill-mode: both;
+  animation-name: bounceIn;
+}

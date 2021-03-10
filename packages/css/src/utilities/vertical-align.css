@@ -1,0 +1,15 @@
+/**
+ * Utility classes for the vertical-align property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.vertical-align\=baseline    { vertical-align: baseline    }
+.vertical-align\=bottom      { vertical-align: bottom      }
+.vertical-align\=middle      { vertical-align: middle      }
+.vertical-align\=text-bottom { vertical-align: text-bottom }
+.vertical-align\=text-top    { vertical-align: text-top    }
+.vertical-align\=top         { vertical-align: top         }

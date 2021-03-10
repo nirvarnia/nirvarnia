@@ -1,0 +1,15 @@
+/**
+ * Utility classes to adjust the `animation-duration` property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.animation-duration\=500ms { animation-duration: 500ms }
+.animation-duration\=800ms { animation-duration: 800ms }
+.animation-duration\=1s    { animation-duration: 1s    }
+.animation-duration\=1\.5s { animation-duration: 1.5s  }
+.animation-duration\=2s    { animation-duration: 2s    }
+.animation-duration\=3s    { animation-duration: 3s    }

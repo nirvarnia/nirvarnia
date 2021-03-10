@@ -1,0 +1,14 @@
+/**
+ * Utility classes for the white-space property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.white-space\=normal   { white-space: normal   }
+.white-space\=nowrap   { white-space: nowrap   }
+.white-space\=pre      { white-space: pre      }
+.white-space\=pre-line { white-space: pre-line }
+.white-space\=pre-wrap { white-space: pre-wrap }

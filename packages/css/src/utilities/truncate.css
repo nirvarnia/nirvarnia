@@ -1,0 +1,17 @@
+/**
+ * A utility class that makes a text block render as a single line with overflow
+ * clipped and annotated with the ellipsis character (…).
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.truncate {
+  text-overflow: ellipsis;
+
+  /* The following properties are required for `text-overflow` to work. */
+  overflow: hidden;
+  white-space: nowrap;
+}

@@ -1,0 +1,12 @@
+/**
+ * Utility classes for the float property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.float\=left  { float: left  }
+.float\=right { float: right }
+.float\=none  { float: none  }

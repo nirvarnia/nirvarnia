@@ -1,0 +1,12 @@
+/**
+ * Utility classes for the flex-wrap property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.flex-wrap\=nowrap       { flex-wrap: nowrap       }
+.flex-wrap\=wrap         { flex-wrap: wrap         }
+.flex-wrap\=wrap-reverse { flex-wrap: wrap-reverse }

@@ -1,0 +1,15 @@
+/**
+ * Utility classes for the font-size property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.font-size\=xs  { font-size: var(--global-font-size-xs)  }
+.font-size\=s   { font-size: var(--global-font-size-s)   }
+.font-size\=m   { font-size: var(--global-font-size-m)   }
+.font-size\=l   { font-size: var(--global-font-size-l)   }
+.font-size\=xl  { font-size: var(--global-font-size-xl)  }
+.font-size\=xxl { font-size: var(--global-font-size-xxl) }

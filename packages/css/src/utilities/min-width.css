@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the min-width property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.min-width\=0     { min-width: 0    }
+.min-width\=100\% { min-width: 100% }

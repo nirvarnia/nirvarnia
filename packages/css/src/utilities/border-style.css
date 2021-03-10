@@ -1,0 +1,13 @@
+/**
+ * Utility classes for the border-style property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.border-style\=dashed { border-style: dashed }
+.border-style\=dotted { border-style: dotted }
+.border-style\=none   { border-style: none   }
+.border-style\=solid  { border-style: solid  }

@@ -1,0 +1,16 @@
+/**
+ * Utility classes for the outline property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.outline\=none { outline: none }
+
+.outline\=none\:focus {
+  &:focus {
+    outline: none
+  }
+}

@@ -1,0 +1,12 @@
+/**
+ * Utility classes for the clear property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.clear\=both  { clear: both  }
+.clear\=left  { clear: left  }
+.clear\=right { clear: right }

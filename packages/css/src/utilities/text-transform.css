@@ -1,0 +1,13 @@
+/**
+ * Utility classes for the text-transform property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.text-transform\=capitalize { text-transform: capitalize }
+.text-transform\=lowercase  { text-transform: lowercase  }
+.text-transform\=none       { text-transform: none       }
+.text-transform\=uppercase  { text-transform: uppercase  }

@@ -1,0 +1,23 @@
+/**
+ * Utility classes for the overflow property and related properties.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.overflow\=auto      { overflow: auto      }
+.overflow\=hidden    { overflow: hidden    }
+.overflow\=scroll    { overflow: scroll    }
+.overflow\=visible   { overflow: visible   }
+
+.overflow-x\=auto    { overflow-x: auto    }
+.overflow-x\=hidden  { overflow-x: hidden  }
+.overflow-x\=scroll  { overflow-x: scroll  }
+.overflow-x\=visible { overflow-x: visible }
+
+.overflow-y\=auto    { overflow-y: auto    }
+.overflow-y\=hidden  { overflow-y: hidden  }
+.overflow-y\=scroll  { overflow-y: scroll  }
+.overflow-y\=visible { overflow-y: visible }

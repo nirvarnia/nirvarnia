@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the table-layout property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.table-layout\=auto  { table-layout: auto  }
+.table-layout\=fixed { table-layout: fixed }

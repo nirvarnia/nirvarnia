@@ -1,0 +1,83 @@
+/**
+ * Utility classes for the color property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.color\=background  { color: var(--reset-page-background-color) }
+.color\=default     { color: var(--reset-text-color)       }
+.color\=transparent { color: transparent                   }
+.color\=white       { color: white                         }
+
+.color\=primary\|100 { color: var(--global-color-primary-100) }
+.color\=primary\|200 { color: var(--global-color-primary-200) }
+.color\=primary\|300 { color: var(--global-color-primary-300) }
+.color\=primary\|400 { color: var(--global-color-primary-400) }
+.color\=primary\|500 { color: var(--global-color-primary-500) }
+.color\=primary\|600 { color: var(--global-color-primary-600) }
+.color\=primary\|700 { color: var(--global-color-primary-700) }
+.color\=primary\|800 { color: var(--global-color-primary-800) }
+.color\=primary\|900 { color: var(--global-color-primary-900) }
+
+.color\=secondary\|100 { color: var(--global-color-secondary-100) }
+.color\=secondary\|200 { color: var(--global-color-secondary-200) }
+.color\=secondary\|300 { color: var(--global-color-secondary-300) }
+.color\=secondary\|400 { color: var(--global-color-secondary-400) }
+.color\=secondary\|500 { color: var(--global-color-secondary-500) }
+.color\=secondary\|600 { color: var(--global-color-secondary-600) }
+.color\=secondary\|700 { color: var(--global-color-secondary-700) }
+.color\=secondary\|800 { color: var(--global-color-secondary-800) }
+.color\=secondary\|900 { color: var(--global-color-secondary-900) }
+
+.color\=neutral\|100 { color: var(--global-color-neutral-100) }
+.color\=neutral\|200 { color: var(--global-color-neutral-200) }
+.color\=neutral\|300 { color: var(--global-color-neutral-300) }
+.color\=neutral\|400 { color: var(--global-color-neutral-400) }
+.color\=neutral\|500 { color: var(--global-color-neutral-500) }
+.color\=neutral\|600 { color: var(--global-color-neutral-600) }
+.color\=neutral\|700 { color: var(--global-color-neutral-700) }
+.color\=neutral\|800 { color: var(--global-color-neutral-800) }
+.color\=neutral\|900 { color: var(--global-color-neutral-900) }
+
+.color\=accent\|info\|100 { color: var(--global-color-accent-info-100) }
+.color\=accent\|info\|200 { color: var(--global-color-accent-info-200) }
+.color\=accent\|info\|300 { color: var(--global-color-accent-info-300) }
+.color\=accent\|info\|400 { color: var(--global-color-accent-info-400) }
+.color\=accent\|info\|500 { color: var(--global-color-accent-info-500) }
+.color\=accent\|info\|600 { color: var(--global-color-accent-info-600) }
+.color\=accent\|info\|700 { color: var(--global-color-accent-info-700) }
+.color\=accent\|info\|800 { color: var(--global-color-accent-info-800) }
+.color\=accent\|info\|900 { color: var(--global-color-accent-info-900) }
+
+.color\=accent\|success\|100 { color: var(--global-color-accent-success-100) }
+.color\=accent\|success\|200 { color: var(--global-color-accent-success-200) }
+.color\=accent\|success\|300 { color: var(--global-color-accent-success-300) }
+.color\=accent\|success\|400 { color: var(--global-color-accent-success-400) }
+.color\=accent\|success\|500 { color: var(--global-color-accent-success-500) }
+.color\=accent\|success\|600 { color: var(--global-color-accent-success-600) }
+.color\=accent\|success\|700 { color: var(--global-color-accent-success-700) }
+.color\=accent\|success\|800 { color: var(--global-color-accent-success-800) }
+.color\=accent\|success\|900 { color: var(--global-color-accent-success-900) }
+
+.color\=accent\|warning\|100 { color: var(--global-color-accent-warning-100) }
+.color\=accent\|warning\|200 { color: var(--global-color-accent-warning-200) }
+.color\=accent\|warning\|300 { color: var(--global-color-accent-warning-300) }
+.color\=accent\|warning\|400 { color: var(--global-color-accent-warning-400) }
+.color\=accent\|warning\|500 { color: var(--global-color-accent-warning-500) }
+.color\=accent\|warning\|600 { color: var(--global-color-accent-warning-600) }
+.color\=accent\|warning\|700 { color: var(--global-color-accent-warning-700) }
+.color\=accent\|warning\|800 { color: var(--global-color-accent-warning-800) }
+.color\=accent\|warning\|900 { color: var(--global-color-accent-warning-900) }
+
+.color\=accent\|danger\|100 { color: var(--global-color-accent-danger-100) }
+.color\=accent\|danger\|200 { color: var(--global-color-accent-danger-200) }
+.color\=accent\|danger\|300 { color: var(--global-color-accent-danger-300) }
+.color\=accent\|danger\|400 { color: var(--global-color-accent-danger-400) }
+.color\=accent\|danger\|500 { color: var(--global-color-accent-danger-500) }
+.color\=accent\|danger\|600 { color: var(--global-color-accent-danger-600) }
+.color\=accent\|danger\|700 { color: var(--global-color-accent-danger-700) }
+.color\=accent\|danger\|800 { color: var(--global-color-accent-danger-800) }
+.color\=accent\|danger\|900 { color: var(--global-color-accent-danger-900) }

@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the flex-grow property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.flex-grow\=0 { flex-grow: 0 }
+.flex-grow\=1 { flex-grow: 1 }

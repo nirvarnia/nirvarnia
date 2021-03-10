@@ -1,0 +1,18 @@
+/**
+ * Utility classes for the display property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.display\=block        { display: block        }
+.display\=flex         { display: flex         }
+.display\=inline       { display: inline       }
+.display\=inline-block { display: inline-block }
+.display\=inline-flex  { display: inline-flex  }
+.display\=none         { display: none         }
+.display\=table        { display: table        }
+.display\=table-cell   { display: table-cell   }
+.display\=table-row    { display: table-row    }

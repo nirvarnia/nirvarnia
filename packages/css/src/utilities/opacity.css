@@ -1,0 +1,28 @@
+/**
+ * Utility classes for the opacity property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.opacity\=0                     { opacity: 0 }
+.opacity\=0\:hover    { &:hover { opacity: 0 } }
+.opacity\=0\:focus    { &:focus { opacity: 0 } }
+
+.opacity\=\.25                  { opacity: .25 }
+.opacity\=\.25\:hover { &:hover { opacity: .25 } }
+.opacity\=\.25\:focus { &:focus { opacity: .25 } }
+
+.opacity\=\.5                   { opacity: .5 }
+.opacity\=\.5\:hover  { &:hover { opacity: .5 } }
+.opacity\=\.5\:focus  { &:focus { opacity: .5 } }
+
+.opacity\=\.75                  { opacity: .75 }
+.opacity\=\.75\:hover { &:hover { opacity: .75 } }
+.opacity\=\.75\:focus { &:focus { opacity: .75 } }
+
+.opacity\=1                     { opacity: 1 }
+.opacity\=1\:hover    { &:hover { opacity: 1 } }
+.opacity\=1\:focus    { &:focus { opacity: 1 } }

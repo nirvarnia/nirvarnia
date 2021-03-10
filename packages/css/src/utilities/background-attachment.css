@@ -1,0 +1,12 @@
+/**
+ * Utility classes for the background-attachment property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.background-attachment\=fixed  { background-attachment: fixed  }
+.background-attachment\=local  { background-attachment: local  }
+.background-attachment\=scroll { background-attachment: scroll }

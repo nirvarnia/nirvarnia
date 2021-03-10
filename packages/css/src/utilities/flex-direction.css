@@ -1,0 +1,13 @@
+/**
+ * Utility classes for the flex-direction property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.flex-direction\=column         { flex-direction: column         }
+.flex-direction\=column-reverse { flex-direction: column-reverse }
+.flex-direction\=row            { flex-direction: row            }
+.flex-direction\=row-reverse    { flex-direction: row-reverse    }

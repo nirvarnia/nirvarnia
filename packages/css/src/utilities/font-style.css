@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the font-style property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.font-style\=italic { font-style: italic }
+.font-style\=normal { font-style: normal }
