@@ -1,0 +1,38 @@
+/**
+ * Resets for the root <html> element and also <body>.
+ *
+ * @see https://nirvarnia.com/docs/v1/reset
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+/* Set the page background color on the root element.  The page canvas collapses 
+to no less than 320px wide.  The horizontal scrollbar appears on screens smaller
+than 320px wide. */
+
+html {
+  background: var(--reset-page-background-color);
+  min-width: var(--reset-page-min-width);
+}
+
+/* By default, immediate block-level children of the body will be centered. */
+
+body {
+  margin: 0 auto;
+}
+
+/* Always render the vertical scrollbar. This prevents the layout jumping around
+when users navigate between pages with no vertical overflow, and long pages with
+content "beneath the fold". */
+
+body {
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+/* Remove Webkit's proprietary tap highlight color. */
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}

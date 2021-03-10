@@ -21,4 +21,4 @@ This code repository is a mono repo, encapsulating the source code for all the i
 Crafted with ❤ in Bristol, UK
 
 Copyright © 2020+ Hacks, Inc. \
-Distributed under the [Blue Oak Model License](LICENSE.md)
+Distributed under the [MIT License](LICENSE.txt)

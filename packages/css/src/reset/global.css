@@ -1,0 +1,23 @@
+/**
+ * Global resets, applied via the universal selector.
+ *
+ * @see https://nirvarnia.com/docs/v1/reset
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+/* Remove default margins and padding from everything. */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Change the default box model to border-box. */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}

@@ -1,0 +1,19 @@
+/**
+ * Adds the modern clearfix hack to all sectioning elements as well as <figure>,
+ * <blockquote>, <details>, <fieldset>, lists and <form> elements.
+ *
+ * All these containers tend to have floating child elements.
+ *
+ * @see https://nirvarnia.com/docs/v1/reset
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+:--clearfix {
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}

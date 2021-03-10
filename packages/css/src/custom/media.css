@@ -1,0 +1,15 @@
+/**
+ * Defines six global breakpoints.
+ *
+ * @see https://nirvarnia.com/docs/v1/reset
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+@custom-media --breakpoint-xs screen and (min-width: 25rem);
+@custom-media --breakpoint-s screen and (min-width: 37.5rem);
+@custom-media --breakpoint-m screen and (min-width: 50rem);
+@custom-media --breakpoint-l screen and (min-width: 62.5rem);
+@custom-media --breakpoint-xl screen and (min-width: 75rem);
+@custom-media --breakpoint-xxl screen and (min-width: 87.5rem);

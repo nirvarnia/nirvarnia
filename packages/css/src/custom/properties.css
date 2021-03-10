@@ -1,0 +1,200 @@
+/**
+ * Custom properties, aka CSS variables, used throughout the reset style sheet.
+ *
+ * @see https://nirvarnia.com/docs/v1/reset
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+:root {
+
+  /* Minimum width of the webpage.  Screens smaller than this will have overflow 
+  on the x axis, and show the horizontal scrollbar. */
+
+  --reset-page-min-width: 320px;
+
+  /* Page background color. */
+
+  --reset-page-background-color: hsl(0, 100%, 100%);
+
+  /* Default fonts. */
+
+  --reset-default-font-family: Arial, Helvetica, 'Helvetica Neue', sans-serif;
+  --reset-default-font-weight-normal: 400;
+  --reset-default-font-weight-bold: 700;
+
+  /* Default fonts for monospaced text. */
+
+  --reset-monospace-font-family: Inconsolata, 'Deja-vu Sans Mono', Monaco, Menlo, Consolas, 'Courier New', monospace;
+  --reset-monospace-font-weight-normal: 400;
+  --reset-monospace-font-weight-bold: 700;
+
+  /* Baseline font size - which is set on the root element. All other font sizes
+  are relative to this, using root em units. */
+
+  --reset-root-font-size: 10px;
+
+  /* Implement responsive typography, by varying the default font size according
+  to screen size. Since all other fonts sizes are relative to the root font size
+  (using root em units), everything scales automatically. */
+
+  --reset-root-font-size-xs: 10px;
+  --reset-root-font-size-s: 10px;
+  --reset-root-font-size-m: 11px;
+  --reset-root-font-size-l: 11px;
+  --reset-root-font-size-xl: 10px;
+  --reset-root-font-size-xxl: 10px;
+
+  /* The default font size for everything. This is set on the <body> element. To
+  workaround an old Chrome bug, use ems, not rems, here. */
+
+  --reset-body-font-size: 1.6em;
+
+  /* Default font sizes for elements rendered in the monospace font. */
+
+  --reset-monospace-block-font-size: 1.4rem;
+  --reset-monospace-inline-font-size: 95%;
+
+  /* Default text color. */
+
+  --reset-text-color: hsl(0, 0%, 25%);
+
+  /* Default color for horizontal rules. */
+
+  --reset-hr-color: hsl(0, 0%, 75%);
+
+  /* Background color for `::selection` pseudo class. */
+
+  --reset-selected-text-background-color: hsl(50, 100%, 50%);
+
+  /* Default visual cue for the current keyboard-focused element. */
+
+  --reset-focus-outline-color: hsla(50, 100%, 50%, .75);
+  --reset-focus-outline-width: 2px;
+
+  /* Default color for input placeholder text. */
+
+  --reset-placeholder-text-color: hsl(0, 0%, 70%);
+
+  /* Default background color for video containers. */
+
+  --reset-video-background-color: hsl(0, 0%, 25%);
+
+  /* GLOBALS. These properties are shared by multiple components. */
+
+  /* Font sizes for the "default" font family. */
+
+  /*--global-font-size-xs: 1.2rem;*/
+  /*--global-font-size-s: 1.3rem;*/
+  /*--global-font-size-m: 1.4rem;*/ /* Matches var(--reset-body-font-size) */
+  /*--global-font-size-l: 1.6rem;*/
+  /*--global-font-size-xl: 2rem;*/
+  /*--global-font-size-xxl: 2.6rem;*/
+
+  /* Headings. */
+
+  /*--global-headings-font-family: inherit;*/ /* Default font family */
+  /*--global-headings-font-weight: 700;*/
+  /*--global-headings-letter-spacing: -0.05em;*/
+  /*--global-headings-line-height: 1.2;*/
+  /*--global-headings-text-color: inherit;*/ /* Default text color */
+
+  /* Hyperlink colors. */
+
+  /*--global-hyperlink-color: hsl(207, 61%, 55%);*/
+  /*--global-hyperlink-color-visited: hsl(207, 61%, 55%);*/
+  /*--global-hyperlink-color-hover: hsl(207, 61%, 45%);*/
+  /*--global-hyperlink-color-active: hsl(0, 0%, 25%);*/
+
+  /* Primary signature color. */
+
+  /*--global-color-primary-100: hsl(200, 100%, 89%);*/
+  /*--global-color-primary-200: hsl(200, 100%, 79%);*/
+  /*--global-color-primary-300: hsl(200, 100%, 69%);*/
+  /*--global-color-primary-400: hsl(200, 100%, 59%);*/
+  /*--global-color-primary-500: hsl(200, 100%, 49%);*/
+  /*--global-color-primary-600: hsl(200, 100%, 39%);*/
+  /*--global-color-primary-700: hsl(200, 100%, 29%);*/
+  /*--global-color-primary-800: hsl(200, 100%, 19%);*/
+  /*--global-color-primary-900: hsl(200, 100%, 9%);*/
+
+  /* Secondary signature color. */
+
+  /*--global-color-secondary-100: hsl(22, 100%, 85%);*/
+  /*--global-color-secondary-200: hsl(22, 100%, 75%);*/
+  /*--global-color-secondary-300: hsl(22, 100%, 65%);*/
+  /*--global-color-secondary-400: hsl(22, 100%, 55%);*/
+  /*--global-color-secondary-500: hsl(22, 100%, 45%);*/
+  /*--global-color-secondary-600: hsl(22, 100%, 35%);*/
+  /*--global-color-secondary-700: hsl(22, 100%, 25%);*/
+  /*--global-color-secondary-800: hsl(22, 100%, 15%);*/
+  /*--global-color-secondary-900: hsl(22, 100%, 5%);*/
+
+  /* Neutral color palette. */
+
+  /*--global-color-neutral-100: hsl(215, 23%, 97%);*/
+  /*--global-color-neutral-200: hsl(215, 23%, 87%);*/
+  /*--global-color-neutral-300: hsl(215, 23%, 77%);*/
+  /*--global-color-neutral-400: hsl(215, 23%, 67%);*/
+  /*--global-color-neutral-500: hsl(215, 23%, 57%);*/
+  /*--global-color-neutral-600: hsl(215, 23%, 47%);*/
+  /*--global-color-neutral-700: hsl(215, 23%, 37%);*/
+  /*--global-color-neutral-800: hsl(215, 23%, 27%);*/
+  /*--global-color-neutral-900: hsl(215, 23%, 17%);*/
+
+  /* Color accents: information. */
+
+  /*--global-color-accent-info-100: hsl(200, 100%, 89%);*/
+  /*--global-color-accent-info-200: hsl(200, 100%, 79%);*/
+  /*--global-color-accent-info-300: hsl(200, 100%, 69%);*/
+  /*--global-color-accent-info-400: hsl(200, 100%, 59%);*/
+  /*--global-color-accent-info-500: hsl(200, 100%, 49%);*/
+  /*--global-color-accent-info-600: hsl(200, 100%, 39%);*/
+  /*--global-color-accent-info-700: hsl(200, 100%, 29%);*/
+  /*--global-color-accent-info-800: hsl(200, 100%, 19%);*/
+  /*--global-color-accent-info-900: hsl(200, 100%, 9%);*/
+
+  /* Color accents: success. */
+
+  /*--global-color-accent-success-100: hsl(128, 57%, 85%);*/
+  /*--global-color-accent-success-200: hsl(128, 57%, 75%);*/
+  /*--global-color-accent-success-300: hsl(128, 57%, 65%);*/
+  /*--global-color-accent-success-400: hsl(128, 57%, 55%);*/
+  /*--global-color-accent-success-500: hsl(128, 57%, 45%);*/
+  /*--global-color-accent-success-600: hsl(128, 57%, 35%);*/
+  /*--global-color-accent-success-700: hsl(128, 57%, 25%);*/
+  /*--global-color-accent-success-800: hsl(128, 57%, 15%);*/
+  /*--global-color-accent-success-900: hsl(128, 57%, 5%);*/
+
+  /* Color accents: warning. */
+
+  /*--global-color-accent-warning-100: hsl(43, 100%, 90%);*/
+  /*--global-color-accent-warning-200: hsl(43, 100%, 80%);*/
+  /*--global-color-accent-warning-300: hsl(43, 100%, 70%);*/
+  /*--global-color-accent-warning-400: hsl(43, 100%, 60%);*/
+  /*--global-color-accent-warning-500: hsl(43, 100%, 50%);*/
+  /*--global-color-accent-warning-600: hsl(43, 100%, 40%);*/
+  /*--global-color-accent-warning-700: hsl(43, 100%, 30%);*/
+  /*--global-color-accent-warning-800: hsl(43, 100%, 20%);*/
+  /*--global-color-accent-warning-900: hsl(43, 100%, 10%);*/
+
+  /* Colour accents: danger. */
+
+  /*--global-color-accent-danger-100: hsl(22, 100%, 85%);*/
+  /*--global-color-accent-danger-200: hsl(22, 100%, 75%);*/
+  /*--global-color-accent-danger-300: hsl(22, 100%, 65%);*/
+  /*--global-color-accent-danger-400: hsl(22, 100%, 55%);*/
+  /*--global-color-accent-danger-500: hsl(22, 100%, 45%);*/
+  /*--global-color-accent-danger-600: hsl(22, 100%, 35%);*/
+  /*--global-color-accent-danger-700: hsl(22, 100%, 25%);*/
+  /*--global-color-accent-danger-800: hsl(22, 100%, 15%);*/
+  /*--global-color-accent-danger-900: hsl(22, 100%, 5%);*/
+
+  /* Transitions. */
+
+  /*--global-easing-delay: 0s;*/
+  /*--global-easing-duration: .5s;*/
+  /*--global-easing-function: cubic-bezier(0.16, 0.68, 0.43, 0.99);*/
+
+}

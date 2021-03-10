@@ -1,0 +1,46 @@
+/**
+ * Polyfills for HTML elements and attributes missing from some older browsers.
+ *
+ * @see https://nirvarnia.com/docs/v1/reset
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+/* IE 11 and Android 4.3- do not recognise the new <main> element, and they will
+not render it block-level. IE 9+ is okay with other sectioning elements, such as
+<aside> and <header>. We'll reinforce block-level rendering on all sections. */
+
+address,
+article,
+aside,
+details,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Set the display value for <meter> and <progress>, for the benefit of browsers
+that do not natively support these elements. */
+
+meter,
+progress {
+  display: inline-block;
+}
+
+/* We've also got polyfills for IE's proprietary unselectable attribute, for the
+hidden attribute (which is not supported natively in IE 10-, FF 3, Safari 4) and
+a partial polyfill for the <template> element. */
+
+*[unselectable] {
+  user-select: none;
+}
+
+*[hidden],
+template {
+  display: none !important;
+}
