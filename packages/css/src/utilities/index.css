@@ -7,13 +7,14 @@
  * @license   MIT
  */
 
+@import './animations/index.css';
+
 @import './align-content.css';
 @import './align-items.css';
 @import './align-self.css';
 @import './animation-delay.css';
 @import './animation-duration.css';
 @import './animation-iteration-count.css';
-@import './animations/index.css';
 @import './background-attachment.css';
 @import './background-color.css';
 @import './background-position.css';

@@ -7,22 +7,56 @@
  * @license   MIT
  */
 
-.heading\=xxl,
-.heading\=xl,
-.heading\=l,
-.heading\=m,
-.heading\=s,
-.heading\=xs {
-  color: var(--global-headings-text-color);
-  font-family: var(--global-headings-font-family);
-  font-weight: var(--global-headings-font-weight);
-  letter-spacing: var(--global-headings-letter-spacing);
-  line-height: var(--global-headings-line-height);
+.heading\=h1 {
+  color: var(--text-color\=h1);
+  font-family: var(--font-family\=h1);
+  font-size: var(--font-size\=h1);
+  font-weight: var(--font-weight\=h1);
+  letter-spacing: var(--letter-spacing\=h1);
+  line-height: var(--line-height\=h1);
 }
 
-.heading\=xxl { font-size: var(--global-font-size-xxl) }
-.heading\=xl  { font-size: var(--global-font-size-xl)  }
-.heading\=l   { font-size: var(--global-font-size-l)   }
-.heading\=m   { font-size: var(--global-font-size-m)   }
-.heading\=s   { font-size: var(--global-font-size-s)   }
-.heading\=xs  { font-size: var(--global-font-size-xs)  }
+.heading\=h2 { 
+  color: var(--text-color\=h2);
+  font-family: var(--font-family\=h2);
+  font-size: var(--font-size\=h2);
+  font-weight: var(--font-weight\=h2);
+  letter-spacing: var(--letter-spacing\=h2);
+  line-height: var(--line-height\=h2);
+}
+
+.heading\=h3 {
+  color: var(--text-color\=h3);
+  font-family: var(--font-family\=h3);
+  font-size: var(--font-size\=h3);
+  font-weight: var(--font-weight\=h3);
+  letter-spacing: var(--letter-spacing\=h3);
+  line-height: var(--line-height\=h3);
+}
+
+.heading\=h4 {
+  color: var(--text-color\=h4);
+  font-family: var(--font-family\=h4);
+  font-size: var(--font-size\=h4);
+  font-weight: var(--font-weight\=h4);
+  letter-spacing: var(--letter-spacing\=h4);
+  line-height: var(--line-height\=h4);
+}
+
+.heading\=h5 {
+  color: var(--text-color\=h5);
+  font-family: var(--font-family\=h5);
+  font-size: var(--font-size\=h5);
+  font-weight: var(--font-weight\=h5);
+  letter-spacing: var(--letter-spacing\=h5);
+  line-height: var(--line-height\=h5);
+}
+
+.heading\=h6 {
+  color: var(--text-color\=h6);
+  font-family: var(--font-family\=h6);
+  font-size: var(--font-size\=h6);
+  font-weight: var(--font-weight\=h6);
+  letter-spacing: var(--letter-spacing\=h6);
+  line-height: var(--line-height\=h6);
+}

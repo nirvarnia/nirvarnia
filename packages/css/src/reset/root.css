@@ -12,8 +12,8 @@ to no less than 320px wide.  The horizontal scrollbar appears on screens smaller
 than 320px wide. */
 
 html {
-  background: var(--reset-page-background-color);
-  min-width: var(--reset-page-min-width);
+  background: var(--page-background-color);
+  min-width: var(--page-min-width);
 }
 
 /* By default, immediate block-level children of the body will be centered. */

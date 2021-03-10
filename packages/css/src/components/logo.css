@@ -1,0 +1,42 @@
+/**
+ * Logo component.
+ *
+ * @example
+ *
+ * <div class="Logo">
+ *   <a href="/">
+ *     <svg|img>...</svg>
+ *   </a>
+ * </div>
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.Logo {
+
+  /* Floating both the logo graphic, and its (optional) wrapping anchor element,
+  is a reliable method of ensuring the clickable zone fills the area occupied by
+  the logo graphic but no more. */
+
+  & a {
+    display: block;
+    float: left;
+
+    &::after {
+      /* Clearfix */
+      clear: both;
+      content: '';
+      display: table;
+    }
+  }
+
+  & img,
+  & svg {
+    display: block;
+    float: left;
+  }
+
+}

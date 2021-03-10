@@ -1,32 +1,27 @@
 /**
  * Custom CSS selectors used throughout the reset style sheet.
  *
- * @see https://nirvarnia.com/docs/v1/reset
+ * @see https://nirvarnia.com/docs/v1/custom-selectors
  *
  * @copyright 2020-2021 Kieran Potts
  * @license   MIT
  */
 
-/* The elements that are to be rendered bold by default. */
+/* The elements that are to be rendered in the monospace font by default. */
 
-@custom-selector :--bold b, strong;
+@custom-selector :--monospace-elements code, kbd, pre, samp, var;
 
-/* List of elements to which to apply the clearfix hack by default. */
+/* The monospace elements that are to be rendered block-level by default. */
 
-@custom-selector :--cleafix address, article, aside, blockquote, details, div, dl, fieldset, figure, footer, form, header, main, nav, ol, section, ul;
+@custom-selector :--monospace-block-elements pre;
 
-/* The elements that are to be italicized by default. */
+/* The monospace elements that to be rendered inline-block by default. */
 
-@custom-selector :--italic em, i;
+@custom-selector :--monospace-inline-elements code, kbd, samp, var;
 
-/* Elements to be rendered using a monospace font by default. */
+/* The elements to which to apply the clearfix hack by default. Elements such as
+<figure>, <blockquote>, <details>, <fieldset>, lists, and forms often have child
+elements that are floated.  It is convenient to have such containers wrap around 
+their child nodes automatically. */
 
-@custom-selector :--monospace code, kbd, pre, samp, var;
-
-/* Monospace elements to be rendered block-level by default. */
-
-@custom-selector :--monospace-block pre;
-
-/* Monospace elements to be rendered inline-block by default. */
-
-@custom-selector :--monospace-inline code, kbd, samp, var;
+@custom-selector :--clearfixed-elements address, article, aside, blockquote, details, div, dl, fieldset, figure, footer, form, header, main, nav, ol, section, ul;

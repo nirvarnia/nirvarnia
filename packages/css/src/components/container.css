@@ -1,0 +1,58 @@
+/**
+ * Container component.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.Container {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  padding-left: var(--Container--gutter-width);
+  padding-right: var(--Container--gutter-width);
+}
+
+ @media (--breakpoint\@xs) {
+  .Container {
+    margin-left: var(--Container--gutter-width\@xs);
+    margin-right: var(--Container--gutter-width\@xs);
+  }
+}
+
+@media (--breakpoint\@sm) {
+  .Container {
+    margin-left: var(--Container--gutter-width\@sm);
+    margin-right: var(--Container--gutter-width\@sm);
+  }
+}
+
+@media (--breakpoint\@md) {
+  .Container {
+    margin-left: var(--Container--gutter-width\@md);
+    margin-right: var(--Container--gutter-width\@md);
+  }
+}
+
+@media (--breakpoint\@lg) {
+  .Container {
+    margin-left: var(--Container--gutter-width\@lg);
+    margin-right: var(--Container--gutter-width\@lg);
+  }
+}
+
+@media (--breakpoint\@xl) {
+  .Container {
+    margin-left: var(--Container--gutter-width\@xl);
+    margin-right: var(--Container--gutter-width\@xl);
+  }
+}
+
+@media (--breakpoint\@xxl) {
+  .Container {
+    margin-left: var(--Container--gutter-width\@xxl);
+    margin-right: var(--Container--gutter-width\@xxl);
+  }
+}

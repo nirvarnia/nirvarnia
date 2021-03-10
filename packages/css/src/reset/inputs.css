@@ -23,10 +23,10 @@ textarea {
 
 optgroup {
   font-style: normal;
-  font-weight: var(--reset-default-font-weight-bold);
+  font-weight: var(--default-font-weight\=bold);
 
   & option {
-    font-weight: var(--reset-default-font-weight-normal);
+    font-weight: var(--default-font-weight\=normal);
   }
 }
 
@@ -45,9 +45,9 @@ a {
 is hidden while a button or link is active. */
 
 *:focus {
-  outline-color: var(--reset-focus-outline-color);
+  outline-color: var(--focus-outline-color);
   outline-style: solid;
-  outline-width: var(--reset-focus-outline-width);
+  outline-width: var(--focus-outline-width);
 }
 
 *:focus:active {
@@ -206,7 +206,7 @@ input[type="range"]::-moz-focus-outer {
 an opacity of 0.54, which needs to be reset for cross-browser consistency. */
 
 ::placeholder {
-  color: var(--reset-placeholder-text-color);
+  color: var(--placeholder-text-color);
   opacity: 1;
 }
 

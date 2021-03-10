@@ -49,7 +49,7 @@ need to know the dimensions of each video for it to work:
 http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ */
 
 video {
-  background: var(--reset-video-background-color);
+  background: var(--video-letterbox-color);
   max-width: 100%;
 }
 

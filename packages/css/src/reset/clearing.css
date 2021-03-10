@@ -10,7 +10,7 @@
  * @license   MIT
  */
 
-:--clearfix {
+:--clearfixed-elements {
   &::after {
     clear: both;
     content: '';

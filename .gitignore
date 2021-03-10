@@ -81,3 +81,5 @@ dist
 .next
 public
 *.tgz
+
+.todo

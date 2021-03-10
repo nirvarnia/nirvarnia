@@ -7,13 +7,15 @@
  * @license   MIT
  */
 
+/* --- FONT FAMILIES AND WEIGHTS -------------------------------------------- */
+
 /* Apply the default typeface globally, ensuring it's inherited by everything in
 the document — including <textarea> and <legend> elements which traditionally do
 not inherit their font. */
 
 body {
-  font-family: var(--reset-default-font-family);
-  font-weight: var(--reset-default-font-weight-normal);
+  font-family: var(--default-font-family);
+  font-weight: var(--default-font-weight\=normal);
 
   & * {
     font-family: inherit;
@@ -23,19 +25,19 @@ body {
 
 /* Set the elements that are to be rendered bold by default. */
 
-:--bold {
-  font-weight: var(--reset-default-font-weight-bold);
+b, strong {
+  font-weight: var(--default-font-weight\=bold);
 }
 
 /* The monospace font is used for preformatted text and program code, etc. */
 
-:--monospace {
-  font-family: var(--reset-monospace-font-family);
-  font-weight: var(--reset-monospace-font-weight-normal);
+:--monospace-elements {
+  font-family: var(--monospace-font-family);
+  font-weight: var(--monospace-font-weight\=normal);
 
   & b,
   & strong {
-    font-weight: var(--reset-monospace-font-weight-bold);
+    font-weight: var(--monospace-font-weight\=bold);
   }
 }
 
@@ -47,16 +49,17 @@ var {
 
 /* Set the elements that are to be italicized by default. */
 
-:--italic {
+em, i {
   font-style: italic;
 }
 
-/* Change the root's font size from 16px to 10px. This is convenient. It is easy
-to calculate rem units if the division is by ten: 24px is 2.4rem: 24 / 10 = 2.4.
-Inheritance needs to be reinforced for nested lists. */
+/* --- FONT SIZES ----------------------------------------------------------- */
+
+/* Set the root's font size. Inheritance needs to be reinforced for nested lists
+etc. */
 
 html {
-  font-size: var(--reset-root-font-size);
+  font-size: var(--root-font-size);
 
   & * {
     font-size: 100%;
@@ -70,79 +73,75 @@ ol ul {
   font-size: 100%;
 }
 
-/* As long as everything is sized relative to root — via root ems — we can auto-
-matically rescale the whole UI based on the size of the screen. */
+/* Adjust the root font size at the global breakpoints. This is how we implement
+responsive typography and other rendering as a global strategy. */
 
-@media (--breakpoint-xs) {
-  html {
-    font-size: var(--reset-root-font-size-xs);
-  }
+@media (--breakpoint\@xs) {
+  html { font-size: var(--root-font-size\@xs) }
 }
 
-@media (--breakpoint-s) {
-  html {
-    font-size: var(--reset-root-font-size-s);
-  }
+@media (--breakpoint\@sm) {
+  html { font-size: var(--root-font-size\@sm) }
 }
 
-@media (--breakpoint-m) {
-  html {
-    font-size: var(--reset-root-font-size-m);
-  }
+@media (--breakpoint\@md) {
+  html { font-size: var(--root-font-size\@md) }
 }
 
-@media (--breakpoint-l) {
-  html {
-    font-size: var(--reset-root-font-size-l);
-  }
+@media (--breakpoint\@lg) {
+  html { font-size: var(--root-font-size\@lg) }
 }
 
-@media (--breakpoint-xl) {
-  html {
-    font-size: var(--reset-root-font-size-xl);
-  }
+@media (--breakpoint\@xl) {
+  html { font-size: var(--root-font-size\@xl) }
 }
 
-@media (--breakpoint-xxl) {
-  html {
-    font-size: var(--reset-root-font-size-xxl);
-  }
+@media (--breakpoint\@xxl) {
+  html { font-size: var(--root-font-size\@xxl) }
 }
 
-/* The default font size is set on the <body> element. Using ems, not rems, here
-will resolve an old Chrome bug, @see http://stackoverflow.com/a/20206725. */
+/* Set the default font size on the <body> element, which should be in rem or em
+units to make it relative to the root <html> element. */
 
 body {
-  font-size: var(--reset-body-font-size);
+  font-size: var(--font-size\=body);
 }
 
 /* Where font sizes of block-level elements differ from the default font size as
 set on the document body, the font-size value should be set relative to the root 
 element (ie defined in root em units). */
 
-:--monospace-block {
+:--monospace-block-elements {
   display: block;
-  font-size: var(--reset-monospace-block-font-size);
+  font-size: var(--monospace-block-font-size);
 }
 
 /* Inline elements should be sized as a percentage of the font-size they inherit
 from their parent block element. Generally this is needed only when the typeface
 changes within a block. */
 
-:--monospace-inline {
+:--monospace-inline-elements {
   display: inline-block;
-  font-size: var(--reset-monospace-inline-font-size);
+  font-size: var(--monospace-inline-font-size);
 }
+
+/* --- LINE HEIGHT ---------------------------------------------------------- */
 
 /* By default, have line heights precisely match the font size of the block. */
 
 body {
-  line-height: 1;
+  line-height: var(--default-line-height);
 
   & * {
     line-height: inherit;
   }
 }
+
+:--monospace-block-elements {
+  line-height: var(--monospace-line-height);
+}
+
+/* --- OTHER TEXT ADJUSTMENTS ----------------------------------------------- */
 
 /* The text-rendering property is not part of any CSS specification — it is from
 the SVG spec in fact — but it is supported by Gecko + WebKit browsers when added
@@ -163,13 +162,15 @@ html {
   text-size-adjust: 100%;
 }
 
+/* --- FONT COLORS ---------------------------------------------------------- */
+
 /* The default font color is applied to the document body and allowed to cascade
 to all elements within the document — even <legend> and form controls that don't
 normally inherit the color property. The color property is also inherited as the
 default fill color for embedded SVGs (customizable via the fill attribute). */
 
 body {
-  color: var(--reset-text-color);
+  color: var(--default-text-color);
 
   & * {
     color: inherit;
@@ -179,6 +180,8 @@ body {
 svg {
   fill: currentColor;
 }
+
+/* --- LISTS ---------------------------------------------------------------- */
 
 /* Bullets are removed from unordered lists — but not ordered ones because doing
 so would make the "type" attribute obsolete. It is handy for controlling in HTML
@@ -198,12 +201,14 @@ li {
   list-style: inherit;
 }
 
+/* --- OTHER TEXT ELEMENTS -------------------------------------------------- */
+
 /* Different web browsers design the horizontal rule (<hr>) element in different
 ways. Here's a more consistent implementation. */
 
 hr {
   border: 0;
-  border-top: 1px solid var(--reset-hr-color);
+  border-top: 1px solid var(--hr-color);
   height: 0;
 }
 
@@ -312,7 +317,7 @@ yet most browsers still treat it as a text node, italicizing its inner text - we
 can fix that. */
 
 small {
-  font-size: 100%;
+  font-size: var(--font-size\=small);
 }
 
 address {
@@ -331,7 +336,7 @@ and vertical-align properties of their parents. */
 /* Here's a better default presentation for selected text. */
 
 ::selection {
-  background: var(--reset-selected-text-background-color);
+  background: var(--selected-text-highlight-color);
   color: inherit;
   text-shadow: none;
 }

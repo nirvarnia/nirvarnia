@@ -1,0 +1,183 @@
+/**
+ * RichText component.
+ *
+ * Use this component to wrap the output from rich text content editors.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.RichText {
+
+  /* Font sizes */
+
+  & h1 {
+    font-size: var(--font-size\=h1)
+  }
+
+  & h2 {
+    font-size: var(--global-font-size-l);
+  }
+
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    font-size: var(--global-font-size-m);
+  }
+
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    line-height: var(--global-headings-line-height);
+  }
+
+  /* Line heights */
+
+  & pre {
+    line-height: 1.6;
+  }
+
+  & p,
+  & ul,
+  & ol {
+    line-height: 1.6;
+  }
+
+  /* Margins */
+
+  & h2 {
+    margin: 6rem 0 2rem;
+  }
+
+  & h3 {
+    margin: 4rem 0 2rem;
+  }
+
+  & p,
+  & ul,
+  & ol {
+    margin: 0 0 2rem;
+  }
+
+  & figure,
+  & hr {
+    margin: 4rem 0;
+  }
+
+  & figcaption:first-child {
+    margin: 0 0 1rem;
+  }
+
+  & figcaption:last-child {
+    margin: 1rem 0 0;
+  }
+
+  /* Lists */
+
+  & ul ul,
+  & ol ol {
+    padding-left: 2em;
+  }
+
+  & ul li {
+    padding-left: 1.5em;
+    position: relative;
+  }
+
+  & ul li::before {
+    color: gray;
+    content: '\2014';
+    left: 0;
+    position: absolute;
+  }
+
+  /* Horizontal rules */
+
+  & hr {
+    border-top: medium double gray;
+    text-align: center;
+  }
+
+  & hr::after {
+    background: white;
+    content: '§';
+    display: inline-block;
+    font-family: serif;
+    font-size: 2rem;
+    padding: 0 0.25em;
+    position: relative;
+    top: -0.95em;
+  }
+
+  /* Tables */
+
+  & table {
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    width: auto;
+  }
+
+  & table th:first-child,
+  & table td:first-child {
+    padding-left: 0;
+  }
+
+  & table th:last-child,
+  & table td:last-child {
+    padding-right: 0;
+  }
+
+  /* Block-level preformatted text */
+
+  & pre {
+    background: #E6E6E6;
+    padding: 2rem;
+  }
+
+  /* Inline computer code */
+
+  & code {
+    background: #E6E6E6;
+    padding: 0.1em 0.2em;
+    vertical-align: 1px;
+  }
+
+  /* Hyperlinks */
+
+  & a {
+    color: var(--global-hyperlink-color-default);
+    text-decoration: underline;
+    transition: color 0.25s ease-out;
+  }
+
+  & a:visited {
+    color: var(--global-hyperlink-color-visited);
+  }
+
+  & a:hover {
+    color: var(--global-hyperlink-color-hovers);
+  }
+
+  & a:focus {
+    color: var(--global-hyperlink-color-focus);
+  }
+
+  & a:focus {
+    outline: 1px dotted var(--global-hyperlink-color-focus);
+    outline-offset: 2px;
+    transition: none;
+  }
+
+  & a:active {
+    color: var(--global-hyperlink-color-active);
+    outline: none;
+    transition: none;
+  }
+
+}
