@@ -1,0 +1,24 @@
+/**
+ * "fadeInDown" keyframes definition.
+ *
+ * Adapted from {@link https://daneden.github.io/animate.css/|Animate.css}.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2018 Daniel Eden
+ * @license   MIT
+ */
+
+@keyframes fadeInDown {
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+}

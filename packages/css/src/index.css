@@ -9,20 +9,6 @@
  * @license   MIT
  */
 
-/* CSS variables, media queries and selectors
-used throughout the style sheet. */
-
-@import './custom/properties.css';
-@import './custom/selectors.css';
-@import './custom/media.css';
-
-/* Resets for browser defaults. */
-
-@import './reset/global.css';
-@import './reset/root.css';
-@import './reset/typography.css';
-@import './reset/tables.css';
-@import './reset/inputs.css';
-@import './reset/multimedia.css';
-@import './reset/polyfills.css';
-@import './reset/clearing.css';
+@import './custom/index.css';
+@import './reset/index.css';
+@import './keyframes/index.css';

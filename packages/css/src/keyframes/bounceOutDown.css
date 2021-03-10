@@ -1,0 +1,29 @@
+/**
+ * "bounceOutDown" keyframes definition.
+ *
+ * Adapted from {@link https://daneden.github.io/animate.css/|Animate.css}.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2018 Daniel Eden
+ * @license   MIT
+ */
+
+ @keyframes bounceOutDown {
+
+  20% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
+
+}

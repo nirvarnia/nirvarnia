@@ -1,0 +1,26 @@
+/**
+ * "rotateInUpLeft" keyframes definition.
+ *
+ * Adapted from {@link https://daneden.github.io/animate.css/|Animate.css}.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2018 Daniel Eden
+ * @license   MIT
+ */
+
+@keyframes rotateInUpLeft {
+
+  from {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  to {
+    transform-origin: left bottom;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+}

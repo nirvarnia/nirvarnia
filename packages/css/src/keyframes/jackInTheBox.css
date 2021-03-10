@@ -1,0 +1,33 @@
+/**
+ * "jackInTheBox" keyframes definition.
+ *
+ * Adapted from {@link https://daneden.github.io/animate.css/|Animate.css}.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2018 Daniel Eden
+ * @license   MIT
+ */
+
+@keyframes jackInTheBox {
+
+  0% {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}

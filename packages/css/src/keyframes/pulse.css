@@ -1,0 +1,26 @@
+/**
+ * "pulse" keyframes definition.
+ *
+ * Adapted from {@link https://daneden.github.io/animate.css/|Animate.css}.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2018 Daniel Eden
+ * @license   MIT
+ */
+
+@keyframes pulse {
+
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+
+}
