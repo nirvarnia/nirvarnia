@@ -7,7 +7,27 @@
  * @license   MIT
  */
 
-.border-style\=dashed { border-style: dashed }
-.border-style\=dotted { border-style: dotted }
-.border-style\=none   { border-style: none   }
-.border-style\=solid  { border-style: solid  }
+.border-style\=dashed        { border-style: dashed        }
+.border-style\=dotted        { border-style: dotted        }
+.border-style\=none          { border-style: none          }
+.border-style\=solid         { border-style: solid         }
+
+.border-top-style\=dashed    { border-top-style: dashed    }
+.border-top-style\=dotted    { border-top-style: dotted    }
+.border-top-style\=none      { border-top-style: none      }
+.border-top-style\=solid     { border-top-style: solid     }
+
+.border-right-style\=dashed  { border-right-style: dashed  }
+.border-right-style\=dotted  { border-right-style: dotted  }
+.border-right-style\=none    { border-right-style: none    }
+.border-right-style\=solid   { border-right-style: solid   }
+
+.border-bottom-style\=dashed { border-bottom-style: dashed }
+.border-bottom-style\=dotted { border-bottom-style: dotted }
+.border-bottom-style\=none   { border-bottom-style: none   }
+.border-bottom-style\=solid  { border-bottom-style: solid  }
+
+.border-left-style\=dashed   { border-left-style: dashed   }
+.border-left-style\=dotted   { border-left-style: dotted   }
+.border-left-style\=none     { border-left-style: none     }
+.border-left-style\=solid    { border-left-style: solid    }

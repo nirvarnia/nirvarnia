@@ -26,39 +26,34 @@
   throughout the document except where overridden by a class or a rule of higher 
   specificity. */
 
-  --default-font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
-  --default-font-weight\=normal: 400;
-  --default-font-weight\=bold: 700;
+  --font-family\=default: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
 
   /* The sans-serif font family.  If the default family is sans, this may be set 
   set to inherit, but you must still specify the normal and bold weights. */
 
-  --sans-serif-font-family: inherit;
-  --sans-serif-font-weight\=normal: 400;
-  --sans-serif-font-weight\=bold: 700;
+  --sans-serif-font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
 
   /* The serif font family. If the default font family is serif, this may be set
   to inherit, but you must still specify the normal and bold weights. */
 
   --serif-font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
-  --serif-font-weight\=normal: 400;
-  --serif-font-weight\=bold: 700;
 
   /* The monospace font family. This is used to display preformatted text blocks
   and inline code snippets. */
 
   --monospace-font-family: ui-monospace, SFMono-Regular, Monaco, Menlo, Consolas, Inconsolata, 'Liberation Mono', 'Deja-vu Sans Mono', 'Courier New', monospace;
-  --monospace-font-weight\=normal: 400;
-  --monospace-font-weight\=bold: 700;
 
   /* Headings. */
 
-  --font-family\=h1: inherit; /* Inherits the default font family. */
-  --font-family\=h2: inherit; /* Inherits the default font family. */
-  --font-family\=h3: inherit; /* Inherits the default font family. */
-  --font-family\=h4: inherit; /* Inherits the default font family. */
-  --font-family\=h5: inherit; /* Inherits the default font family. */
-  --font-family\=h6: inherit; /* Inherits the default font family. */
+  --font-family\=h1: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-family\=h2: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-family\=h3: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-family\=h4: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-family\=h5: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-family\=h6: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+
+  --font-weight\=normal: 400;
+  --font-weight\=bold: 700;
 
   --font-weight\=h1: 700;
   --font-weight\=h2: 700;

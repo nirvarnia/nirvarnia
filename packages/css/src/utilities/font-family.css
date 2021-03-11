@@ -7,38 +7,7 @@
  * @license   MIT
  */
 
-.font-family\=default { 
-  font-family: var(--default-font-family);
-
-  & b,
-  & strong {
-    font-weight: var(--default-font-weight\=bold);
-  }
-}
-
-.font-family\=sans-serif { 
-  font-family: var(--sans-serif-font-family);
-
-  & b,
-  & strong {
-    font-weight: var(--sans-serif-font-weight\=bold);
-  }
-}
-
-.font-family\=serif { 
-  font-family: var(--serif-font-family);
-
-  & b,
-  & strong {
-    font-weight: var(--serif-font-weight\=bold);
-  }
-}
-
-.font-family\=monospace { 
-  font-family: var(--monospace-font-family);
-
-  & b,
-  & strong {
-    font-weight: var(--monospace-font-weight\=bold);
-  }
-}
+.font-family\=default    { font-family: var(--font-family\=default)   }
+.font-family\=sans-serif { font-family: var(--sans-serif-font-family) }
+.font-family\=serif      { font-family: var(--serif-font-family)      }
+.font-family\=monospace  { font-family: var(--monospace-font-family)  }

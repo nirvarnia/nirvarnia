@@ -23,10 +23,10 @@ textarea {
 
 optgroup {
   font-style: normal;
-  font-weight: var(--default-font-weight\=bold);
+  font-weight: var(--font-weight\=bold);
 
   & option {
-    font-weight: var(--default-font-weight\=normal);
+    font-weight: var(--font-weight\=normal);
   }
 }
 

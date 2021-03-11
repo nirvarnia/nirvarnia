@@ -14,8 +14,8 @@ the document — including <textarea> and <legend> elements which traditionally 
 not inherit their font. */
 
 body {
-  font-family: var(--default-font-family);
-  font-weight: var(--default-font-weight\=normal);
+  font-family: var(--font-family\=default);
+  font-weight: var(--font-weight\=normal);
 
   & * {
     font-family: inherit;
@@ -26,18 +26,18 @@ body {
 /* Set the elements that are to be rendered bold by default. */
 
 b, strong {
-  font-weight: var(--default-font-weight\=bold);
+  font-weight: var(--font-weight\=bold);
 }
 
 /* The monospace font is used for preformatted text and program code, etc. */
 
 :--monospace-elements {
   font-family: var(--monospace-font-family);
-  font-weight: var(--monospace-font-weight\=normal);
+  font-weight: var(--font-weight\=normal);
 
   & b,
   & strong {
-    font-weight: var(--monospace-font-weight\=bold);
+    font-weight: var(--font-weight\=bold);
   }
 }
 

@@ -11,7 +11,8 @@
 .truncate {
   text-overflow: ellipsis;
 
-  /* The following properties are required for `text-overflow` to work. */
+  /* The following properties are also required for `text-overflow` to work. */
+
   overflow: hidden;
   white-space: nowrap;
 }

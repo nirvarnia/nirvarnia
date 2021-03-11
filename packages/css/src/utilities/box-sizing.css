@@ -1,0 +1,11 @@
+/**
+ * Utility classes for the box-sizing property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.box-sizing\=border-box  { box-sizing: border-box } 
+.box-sizing\=content-box { box-sizing: content-box } 

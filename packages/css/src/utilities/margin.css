@@ -18,6 +18,12 @@
 .margin\=4rem           { margin: 4rem          }
 .margin\=6rem           { margin: 6rem          }
 .margin\=8rem           { margin: 8rem          }
+.margin\=10rem          { margin: 10rem         }
+.margin\=12rem          { margin: 12rem         }
+.margin\=14rem          { margin: 14rem         }
+.margin\=16rem          { margin: 16rem         }
+.margin\=18rem          { margin: 18rem         }
+.margin\=20rem          { margin: 20rem         }
 
 .margin-top\=auto       { margin-top: auto      }
 .margin-top\=0          { margin-top: 0         }
@@ -30,6 +36,12 @@
 .margin-top\=4rem       { margin-top: 4rem      }
 .margin-top\=6rem       { margin-top: 6rem      }
 .margin-top\=8rem       { margin-top: 8rem      }
+.margin-top\=10rem      { margin-top: 10rem     }
+.margin-top\=12rem      { margin-top: 12rem     }
+.margin-top\=14rem      { margin-top: 14rem     }
+.margin-top\=16rem      { margin-top: 16rem     }
+.margin-top\=18rem      { margin-top: 18rem     }
+.margin-top\=20rem      { margin-top: 20rem     }
 
 .margin-right\=auto     { margin-right: auto    }
 .margin-right\=0        { margin-right: 0       }
@@ -42,6 +54,12 @@
 .margin-right\=4rem     { margin-right: 4rem    }
 .margin-right\=6rem     { margin-right: 6rem    }
 .margin-right\=8rem     { margin-right: 8rem    }
+.margin-right\=10rem    { margin-right: 10rem   }
+.margin-right\=12rem    { margin-right: 12rem   }
+.margin-right\=14rem    { margin-right: 14rem   }
+.margin-right\=16rem    { margin-right: 16rem   }
+.margin-right\=18rem    { margin-right: 18rem   }
+.margin-right\=20rem    { margin-right: 20rem   }
 
 .margin-bottom\=auto    { margin-bottom: auto   }
 .margin-bottom\=0       { margin-bottom: 0      }
@@ -54,6 +72,12 @@
 .margin-bottom\=4rem    { margin-bottom: 4rem   }
 .margin-bottom\=6rem    { margin-bottom: 6rem   }
 .margin-bottom\=8rem    { margin-bottom: 8rem   }
+.margin-bottom\=10rem   { margin-bottom: 10rem  }
+.margin-bottom\=12rem   { margin-bottom: 12rem  }
+.margin-bottom\=14rem   { margin-bottom: 14rem  }
+.margin-bottom\=16rem   { margin-bottom: 16rem  }
+.margin-bottom\=18rem   { margin-bottom: 18rem  }
+.margin-bottom\=20rem   { margin-bottom: 20rem  }
 
 .margin-left\=auto      { margin-left: auto     }
 .margin-left\=0         { margin-left: 0        }
@@ -66,3 +90,9 @@
 .margin-left\=4rem      { margin-left: 4rem     }
 .margin-left\=6rem      { margin-left: 6rem     }
 .margin-left\=8rem      { margin-left: 8rem     }
+.margin-left\=10rem     { margin-left: 10rem    }
+.margin-left\=12rem     { margin-left: 12rem    }
+.margin-left\=14rem     { margin-left: 14rem    }
+.margin-left\=16rem     { margin-left: 16rem    }
+.margin-left\=18rem     { margin-left: 18rem    }
+.margin-left\=20rem     { margin-left: 20rem    }

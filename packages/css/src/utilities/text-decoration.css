@@ -13,13 +13,9 @@
 .text-decoration\=underline    { text-decoration: underline    }
 
 .text-decoration\=underline\:hover {
-  &:hover {
-    text-decoration: underline
-  }
+  &:hover { text-decoration: underline }
 }
 
 .text-decoration\=underline\:focus {
-  &:focus {
-	text-decoration: underline
-  }
+  &:focus { text-decoration: underline }
 }
