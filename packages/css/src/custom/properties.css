@@ -9,17 +9,6 @@
 
 :root {
 
-  /* --- CANVAS ------------------------------------------------------------- */
-
-  /* The minimum width of a webpage. Screens smaller than this may have overflow 
-  on their X axis, and they may show the horizontal scrollbar. */
-
-  --page-min-width: 320px;
-
-  /* The background color of webpages. */
-
-  --page-background-color: hsl(0, 100%, 100%);
-
   /* --- FONT FAMILIES AND WEIGHTS ------------------------------------------ */
 
   /* The "default" font family is set on the root element and allowed to cascade
@@ -31,17 +20,17 @@
   /* The sans-serif font family.  If the default family is sans, this may be set 
   set to inherit, but you must still specify the normal and bold weights. */
 
-  --sans-serif-font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-family\=sans-serif: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
 
   /* The serif font family. If the default font family is serif, this may be set
   to inherit, but you must still specify the normal and bold weights. */
 
-  --serif-font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --font-family\=serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
 
   /* The monospace font family. This is used to display preformatted text blocks
   and inline code snippets. */
 
-  --monospace-font-family: ui-monospace, SFMono-Regular, Monaco, Menlo, Consolas, Inconsolata, 'Liberation Mono', 'Deja-vu Sans Mono', 'Courier New', monospace;
+  --font-family\=monospace: ui-monospace, SFMono-Regular, Monaco, Menlo, Consolas, Inconsolata, 'Liberation Mono', 'Deja-vu Sans Mono', 'Courier New', monospace;
 
   /* Headings. */
 
@@ -71,19 +60,19 @@
   to the root font size. For example, to render a font at 24px with the rem unit
   you just divide 24 by 10 to get 2.4rem. */
 
-  --root-font-size: 10px;
+  --font-size\=root: 10px;
 
   /* Optionally, the root font size can respond to screen width. With font sizes
   specified in root ems, this will have the effect of scaling the typography for
   screen size. And if all dimensions are specified in root ems, the whole UI can
   scale automatically, too. */
 
-  --root-font-size\@xs: 10px;
-  --root-font-size\@sm: 10px;
-  --root-font-size\@md: 10px;
-  --root-font-size\@lg: 10px;
-  --root-font-size\@xl: 10px;
-  --root-font-size\@xxl: 10px;
+  --font-size\=root\@xs: 10px;
+  --font-size\=root\@sm: 10px;
+  --font-size\=root\@md: 10px;
+  --font-size\=root\@lg: 10px;
+  --font-size\=root\@xl: 10px;
+  --font-size\=root\@xxl: 10px;
 
   /* With the root font size set to 10, the _actual_ default font size is set on
   the <body> element and defined in rem (or em) units to make it relative to the
@@ -92,7 +81,7 @@
   we needed to use em units to resolve a Chrome bug, but that issue is resolved.
   @see http://stackoverflow.com/a/20206725 */
   
-  --font-size\=body: 1.6rem;
+  --font-size\=default: 1.6rem;
 
   /* Variations in the default font size. Note, there's no medium (=md) setting,
   the default body font size (set above) will be used for that. */
@@ -120,16 +109,16 @@
   block-level rendering, such as <pre> blocks, use rems. For inline elements use
   the percentage unit to adjust the size relative to its surrounding text. */
 
-  --monospace-block-font-size: 1.4rem;
-  --monospace-inline-font-size: 95%;
+  --font-size\=monospace\|block: 1.4rem;
+  --font-size\=monospace\|inline: 95%;
 
-  /* --- LEADING AND TRACKING ----------------------------------------------- */
+  /* --- LINE HEIGHTS (aka leading) ----------------------------------------- */
 
   /* Default line heights (aka leading) for regular and monospace text. Set them
   to 1 and then use classes to adjust line height on a case-by-case basis. */
 
-  --default-line-height: 1;
-  --monospace-line-height: 1;
+  --line-height\=default: 1;
+  --line-height\=monospace: 1;
 
   /* Line heights for each heading level. */
 
@@ -140,56 +129,50 @@
   --line-height\=h5: 1.2;
   --line-height\=h6: 1.2;
 
-  /* Letter spacing (aka tracking or kerning) for each heading level. */
-
-  --letter-spacing\=h1: -0.05em;
-  --letter-spacing\=h2: -0.05em;
-  --letter-spacing\=h3: -0.05em;
-  --letter-spacing\=h4: 0;
-  --letter-spacing\=h5: 0;
-  --letter-spacing\=h6: 0;
-
   /* --- COLOUR PALETTE ----------------------------------------------------- */
+
+  /* The background color of webpages. */
+
+  --color\=page: hsl(0, 100%, 100%);
 
   /* Default text color. */
 
-  --default-text-color: hsl(0, 0%, 25%);
+  --color\=text\|default: hsl(0, 0%, 25%);
 
-  --text-color\=h1: inherit; /* = default text color */
-  --text-color\=h2: inherit; /* = default text color */
-  --text-color\=h3: inherit; /* = default text color */
-  --text-color\=h4: inherit; /* = default text color */
-  --text-color\=h5: inherit; /* = default text color */
-  --text-color\=h6: inherit; /* = default text color */
+  --color\=text\|h1: inherit; /* = default text color */
+  --color\=text\|h2: inherit; /* = default text color */
+  --color\=text\|h3: inherit; /* = default text color */
+  --color\=text\|h4: inherit; /* = default text color */
+  --color\=text\|h5: inherit; /* = default text color */
+  --color\=text\|h6: inherit; /* = default text color */
 
   /* Default color for horizontal rules. */
 
-  --hr-color: hsl(0, 0%, 75%);
+  --color\=hr: hsl(0, 0%, 75%);
+
+  /* Hyperlink colours */
+
+  --color\=hyperlink\|default: hsl(200, 70%, 55%);
+  --color\=hyperlink\|visited: hsl(200, 70%, 55%);
+  --color\=hyperlink\|hover: hsl(200, 70%, 45%);
+  --color\=hyperlink\|focus: hsl(200, 70%, 45%);
+  --color\=hyperlink\|active: hsl(0, 0%, 25%);
 
   /* Background color for the `::selection` pseudo class. */
 
-  --selected-text-highlight-color: hsl(50, 100%, 50%);
+  --color\=text\|selection: hsl(50, 100%, 50%);
 
   /* Default visual cue for the current keyboard-focused element. */
 
-  --focus-outline-color: hsla(50, 100%, 50%, .75);
-  --focus-outline-width: 2px;
+  --color\=focus: hsla(50, 100%, 50%, .75);
 
   /* Default color for input placeholder text. */
 
-  --placeholder-text-color: hsl(0, 0%, 70%);
+  --color\=text\|placeholder: hsl(0, 0%, 70%);
 
   /* Default background color for video containers. */
 
-  --video-letterbox-color: hsl(0, 0%, 25%);
-
-  /* Hyperlink colors. */
-
-  /*--global-hyperlink-color-default: hsl(200, 70%, 55%);*/
-  /*--global-hyperlink-color-visited: hsl(200, 70%, 55%);*/
-  /*--global-hyperlink-color-hover: hsl(200, 70%, 45%);*/
-  /*--global-hyperlink-color-focus: hsl(200, 70%, 45%);*/
-  /*--global-hyperlink-color-active: hsl(0, 0%, 25%);*/
+  --color\=video: hsl(0, 0%, 25%);
 
   /* Neutral color palette. */
 
@@ -287,10 +270,22 @@
   --color\=accent\|danger\|800: hsl(22, 100%, 15%);
   --color\=accent\|danger\|900: hsl(22, 100%, 5%);
 
-  /* Transitions. */
+  /* --- TRANSITIONS -------------------------------------------------------- */
 
   /*--global-easing-delay: 0s;*/
   /*--global-easing-duration: .5s;*/
   /*--global-easing-function: cubic-bezier(0.16, 0.68, 0.43, 0.99);*/
+
+  /* --- COMPONENTS --------------------------------------------------------- */
+
+  /* `Container`: gutter widths by breakpoint. */
+
+  --Container--gutter-width:      0.8rem;
+  --Container--gutter-width\@xs:  1rem;
+  --Container--gutter-width\@sm:  1.5rem;
+  --Container--gutter-width\@md:  2rem;
+  --Container--gutter-width\@lg:  2rem;
+  --Container--gutter-width\@xl:  4rem;
+  --Container--gutter-width\@xxl: 4rem;
 
 }

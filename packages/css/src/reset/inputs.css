@@ -45,9 +45,10 @@ a {
 is hidden while a button or link is active. */
 
 *:focus {
-  outline-color: var(--focus-outline-color);
+  outline-color: var(--color\=focus);
+  outline-offset: 2px;
   outline-style: solid;
-  outline-width: var(--focus-outline-width);
+  outline-width: 2px;
 }
 
 *:focus:active {
@@ -206,7 +207,7 @@ input[type="range"]::-moz-focus-outer {
 an opacity of 0.54, which needs to be reset for cross-browser consistency. */
 
 ::placeholder {
-  color: var(--placeholder-text-color);
+  color: var(--color\=text\|placeholder);
   opacity: 1;
 }
 

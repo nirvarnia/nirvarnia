@@ -7,12 +7,17 @@
  * @license   MIT
  */
 
-.color\=background  { color: var(--page-background-color) }
-.color\=default     { color: var(--default-text-color)    }
+.color\=background  { color: var(--color\=page) }
+.color\=default     { color: var(--color\=text\|default)    }
 .color\=transparent { color: transparent                  }
 .color\=white       { color: white                        }
 
-/* @todo: hyperlink colours */
+/* Prefer to use the `.hyperlink` class. */
+.color\=hyperlink\|default { color: var(--color\=hyperlink\|default) }
+.color\=hyperlink\|visited { color: var(--color\=hyperlink\|visited) }
+.color\=hyperlink\|hover   { color: var(--color\=hyperlink\|hover) }
+.color\=hyperlink\|focus   { color: var(--color\=hyperlink\|focus) }
+.color\=hyperlink\|active  { color: var(--color\=hyperlink\|active) }
 
 .color\=neutral\|100 { color: var(--color\=neutral\|100) }
 .color\=neutral\|200 { color: var(--color\=neutral\|200) }

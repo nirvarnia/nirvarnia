@@ -32,7 +32,7 @@ b, strong {
 /* The monospace font is used for preformatted text and program code, etc. */
 
 :--monospace-elements {
-  font-family: var(--monospace-font-family);
+  font-family: var(--font-family\=monospace);
   font-weight: var(--font-weight\=normal);
 
   & b,
@@ -59,7 +59,7 @@ em, i {
 etc. */
 
 html {
-  font-size: var(--root-font-size);
+  font-size: var(--font-size\=root);
 
   & * {
     font-size: 100%;
@@ -77,34 +77,34 @@ ol ul {
 responsive typography and other rendering as a global strategy. */
 
 @media (--breakpoint\@xs) {
-  html { font-size: var(--root-font-size\@xs) }
+  html { font-size: var(--font-size\=root\@xs) }
 }
 
 @media (--breakpoint\@sm) {
-  html { font-size: var(--root-font-size\@sm) }
+  html { font-size: var(--font-size\=root\@sm) }
 }
 
 @media (--breakpoint\@md) {
-  html { font-size: var(--root-font-size\@md) }
+  html { font-size: var(--font-size\=root\@md) }
 }
 
 @media (--breakpoint\@lg) {
-  html { font-size: var(--root-font-size\@lg) }
+  html { font-size: var(--font-size\=root\@lg) }
 }
 
 @media (--breakpoint\@xl) {
-  html { font-size: var(--root-font-size\@xl) }
+  html { font-size: var(--font-size\=root\@xl) }
 }
 
 @media (--breakpoint\@xxl) {
-  html { font-size: var(--root-font-size\@xxl) }
+  html { font-size: var(--font-size\=root\@xxl) }
 }
 
 /* Set the default font size on the <body> element, which should be in rem or em
 units to make it relative to the root <html> element. */
 
 body {
-  font-size: var(--font-size\=body);
+  font-size: var(--font-size\=default);
 }
 
 /* Where font sizes of block-level elements differ from the default font size as
@@ -113,7 +113,7 @@ element (ie defined in root em units). */
 
 :--monospace-block-elements {
   display: block;
-  font-size: var(--monospace-block-font-size);
+  font-size: var(--font-size\=monospace\|block);
 }
 
 /* Inline elements should be sized as a percentage of the font-size they inherit
@@ -122,7 +122,7 @@ changes within a block. */
 
 :--monospace-inline-elements {
   display: inline-block;
-  font-size: var(--monospace-inline-font-size);
+  font-size: var(--font-size\=monospace\|inline);
 }
 
 /* --- LINE HEIGHT ---------------------------------------------------------- */
@@ -130,7 +130,7 @@ changes within a block. */
 /* By default, have line heights precisely match the font size of the block. */
 
 body {
-  line-height: var(--default-line-height);
+  line-height: var(--line-height\=default);
 
   & * {
     line-height: inherit;
@@ -138,7 +138,7 @@ body {
 }
 
 :--monospace-block-elements {
-  line-height: var(--monospace-line-height);
+  line-height: var(--line-height\=monospace);
 }
 
 /* --- OTHER TEXT ADJUSTMENTS ----------------------------------------------- */
@@ -170,7 +170,7 @@ normally inherit the color property. The color property is also inherited as the
 default fill color for embedded SVGs (customizable via the fill attribute). */
 
 body {
-  color: var(--default-text-color);
+  color: var(--color\=text\|default);
 
   & * {
     color: inherit;
@@ -208,7 +208,7 @@ ways. Here's a more consistent implementation. */
 
 hr {
   border: 0;
-  border-top: 1px solid var(--hr-color);
+  border-top: 1px solid var(--color\=hr);
   height: 0;
 }
 
@@ -336,7 +336,7 @@ and vertical-align properties of their parents. */
 /* Here's a better default presentation for selected text. */
 
 ::selection {
-  background: var(--selected-text-highlight-color);
+  background: var(--color\=text\|selection);
   color: inherit;
   text-shadow: none;
 }

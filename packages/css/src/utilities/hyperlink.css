@@ -1,0 +1,36 @@
+/**
+ * Utility classes to make any bit of text look like a hyperlink.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+.hyperlink { 
+  color: var(--color\=hyperlink\|default);
+}
+
+*:visited {
+  .hyperlink { 
+    color: var(--color\=hyperlink\|visited); 
+  }
+}
+
+*:hover {
+  .hyperlink { 
+    color: var(--color\=hyperlink\|hover); 
+  }
+}
+
+*:focus {
+  .hyperlink { 
+    color: var(--color\=hyperlink\|focus); 
+  }
+}
+
+*:active {
+  .hyperlink { 
+    color: var(--color\=hyperlink\|active); 
+  }
+}

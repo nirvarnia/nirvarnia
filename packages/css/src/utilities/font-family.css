@@ -8,6 +8,6 @@
  */
 
 .font-family\=default    { font-family: var(--font-family\=default)   }
-.font-family\=sans-serif { font-family: var(--sans-serif-font-family) }
-.font-family\=serif      { font-family: var(--serif-font-family)      }
-.font-family\=monospace  { font-family: var(--monospace-font-family)  }
+.font-family\=sans-serif { font-family: var(--font-family\=sans-serif) }
+.font-family\=serif      { font-family: var(--font-family\=serif)      }
+.font-family\=monospace  { font-family: var(--font-family\=monospace)  }
