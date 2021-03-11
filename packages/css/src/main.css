@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/**
+ * Main entry point for all style rules.
+ *
+ * @see https://nirvarnia.com/docs/v1/reset
+ *
+ * @copyright 2020-2021 Kieran Potts
+ * @license   MIT
+ */
+
+@import './variables/_index.css';
+@import './resets/_index.css';
+@import './keyframes/_index.css';
+@import './animations/_index.css';
+@import './utilities/_index.css';
+@import './components/_index.css';
+@import './layouts/_index.css';

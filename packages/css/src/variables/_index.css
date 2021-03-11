@@ -7,6 +7,6 @@
  * @license   MIT
  */
 
-@import './properties.css';
-@import './selectors.css';
-@import './media.css';
+@import './_properties.css';
+@import './_selectors.css';
+@import './_media.css';
