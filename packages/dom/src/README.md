@@ -4,9 +4,6 @@
 
 **A minimal abstraction layer over the [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) and its [Events](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events), exposing a terse jQuery-inspired API but with better modularity, greater defensiveness, and support for a functional programming style.**
 
-[![Version](https://img.shields.io/static/v1.svg?style=for-the-badge&label=Version&message=0.0.0&labelColor=222&color=FA0&maxAge=3600)](https://github.com/nirvarnia/doc/releases)
-[![License](https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=Blue%20Oak&labelColor=222&color=FA0&maxAge=3600)](LICENSE.md) 
-
 > DOM objects are the objects that the web browser is using to render elements on the web page whereas jQuery objects are basically wrapper objects around a set of DOM elements. 
 >
 > DOM objects are used by browser directly to render the webpage in browser window. The browser receives an HTML document from a web server, which is just text. The browser proceeds to parse this text into an internal structure that it can actually use to render the page visually. The DOM represents that internal structure a browser has of an HTML document. A DOM object represents a visual or functional object on the page which was created from the original HTML document.

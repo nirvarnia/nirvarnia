@@ -1,4 +1,4 @@
-# ![Nirvarnia Icons — Beautiful SVG icons for application interfaces](docs/banner.svg)&#10;[![Version 0.0.0](https://img.shields.io/static/v1.svg?style=for-the-badge&label=Version&message=0.0.0&labelColor=3C4247&color=F8D13B&maxAge=3600)](https://github.com/nirvarnia/icons/releases)&ensp;[![Apache 2 License](https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=Apache%202&labelColor=3C4247&color=F8D13B&maxAge=3600)](LICENSE.txt) 
+# ![Nirvarnia Icons — Beautiful SVG icons for application interfaces](./docs/banner.svg)
 
 A collection of over 250 beautiful SVG icons — free, open source and accessible — for use in web application interfaces.
 

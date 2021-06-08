@@ -4,10 +4,6 @@
 
 **Source files and build scripts for the `@nirvarnia/doc` package.**
 
-[![Version](https://img.shields.io/static/v1.svg?style=for-the-badge&label=Version&message=0.0.0&labelColor=222&color=FA0&maxAge=3600)](https://github.com/nirvarnia/doc/releases)
-[![License](https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=Blue%20Oak&labelColor=222&color=FA0&maxAge=3600)](LICENSE.md) 
-
-
 ## Documentation
 
 DEPRECATED: This documentation has moved to the /dev repo.
