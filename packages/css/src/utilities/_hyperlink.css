@@ -3,34 +3,34 @@
  *
  * @see https://nirvarnia.com/docs/v1
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
-.hyperlink { 
+.hyperlink {
   color: var(--color\=hyperlink\|default);
 }
 
 *:visited {
-  .hyperlink { 
-    color: var(--color\=hyperlink\|visited); 
+  .hyperlink {
+    color: var(--color\=hyperlink\|visited);
   }
 }
 
 *:hover {
-  .hyperlink { 
-    color: var(--color\=hyperlink\|hover); 
+  .hyperlink {
+    color: var(--color\=hyperlink\|hover);
   }
 }
 
 *:focus {
-  .hyperlink { 
-    color: var(--color\=hyperlink\|focus); 
+  .hyperlink {
+    color: var(--color\=hyperlink\|focus);
   }
 }
 
 *:active {
-  .hyperlink { 
-    color: var(--color\=hyperlink\|active); 
+  .hyperlink {
+    color: var(--color\=hyperlink\|active);
   }
 }

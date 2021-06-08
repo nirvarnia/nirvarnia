@@ -3,7 +3,7 @@
  *
  * @see https://nirvarnia.com/docs/v1
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
@@ -12,7 +12,7 @@
 .font-size\=lg  { font-size: var(--font-size\=lg)  }
 
 .font-size\=default,
-.font-size\=md { 
+.font-size\=md {
   font-size: var(--font-size\=default);
 }
 

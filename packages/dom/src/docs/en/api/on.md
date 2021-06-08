@@ -1,0 +1,59 @@
+# `on()`
+
+Add event handlers to the elements in collection. Multiple event types can be passed in a space-separated string, or as an object where event types are keys and handlers are values. If a CSS selector is given, the handler function will only be called when an event originates from an element that matches the selector.
+
+If the data parameter is given, this value will be made available as the event.data property during the execution of the event handler.
+
+Event handlers are executed in the context of the element to which the handler is attached, or the matching element in case a selector is provided. When an event handler returns false, preventDefault() and stopPropagation() is called for the current event, preventing the default browser action such as following links.
+
+If false is passed as parameter to this method in place of the callback function, it’s equivalent to passing a function that returns false.
+
+
+## Signature
+
+TODO: Include standalone and $ wrapper signatures:
+
+```txt
+on(type, [selector], function(e){ ... })  ⇒ self
+on(type, [selector], [data], function(e){ ... })  ⇒ self
+on({ type: handler, type2: handler2, ... }, [selector])  ⇒ self
+on({ type: handler, type2: handler2, ... }, [selector], [data])  ⇒ self
+```
+
+#### Parameters
+
+- **`arg1`** = `type` | `type`  \
+  Description...
+
+- **`arg2`** = `type` | `type` (default) \
+  Optional. Description...
+
+#### Throws
+
+- `TypeError` - Missing or invalid parameters.
+
+#### Returns
+
+- `type` - Explanation.
+- `type` - Explanation.
+
+
+## Examples
+
+```js
+var elem = $('#content')
+// observe all clicks inside #content:
+elem.on('click', function(e){ ... })
+// observe clicks inside navigation links in #content
+elem.on('click', 'nav a', function(e){ ... })
+// all clicks inside links in the document
+$(document).on('click', 'a', function(e){ ... })
+// disable following any navigation link on the page
+$(document).on('click', 'nav a', false)
+```
+
+
+## Related
+
+- [`xxxx()`](xxxx.md) - Description...
+- [`xxxx()`](xxxx.md) - Description...

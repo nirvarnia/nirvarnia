@@ -1,0 +1,62 @@
+# `wrap()`
+
+Wrap each element of the collection separately in a DOM structure. Structure can be a single element or several nested elements, and can be passed in as a HTML string or DOM node, or as a function that is called for each element and returns one of the first two types.
+
+Keep in mind that wrapping works best when operating on nodes that are part of the DOM. When calling wrap() on a new element and then inserting the result in the document, the element will lose the wrapping.
+
+
+## Signature
+
+TODO: Include standalone and $ wrapper signatures:
+
+```txt
+wrap(structure)  ⇒ self
+wrap(function(index){ ... })  ⇒ self
+```
+
+#### Parameters
+
+- **`arg1`** = `type` | `type`  \
+  Description...
+
+- **`arg2`** = `type` | `type` (default) \
+  Optional. Description...
+
+#### Throws
+
+- `TypeError` - Missing or invalid parameters.
+
+#### Returns
+
+- `type` - Explanation.
+- `type` - Explanation.
+
+
+## Examples
+
+```js
+// wrap each button in a separate span:
+$('.buttons a').wrap('<span>')
+
+// wrap each code block in a div and pre:
+$('code').wrap('<div class=highlight><pre /></div>')
+
+// wrap all form inputs in a span with classname
+// corresponding to input type:
+$('input').wrap(function(index){
+  return '<span class=' + this.type + 'field />'
+})
+//=> <span class=textfield><input type=text /></span>,
+//   <span class=searchfield><input type=search /></span>
+
+// WARNING: will not work as expected!
+$('<em>broken</em>').wrap('<li>').appendTo(document.body)
+// do this instead:
+$('<em>better</em>').appendTo(document.body).wrap('<li>')
+```
+
+
+## Related
+
+- [`xxxx()`](xxxx.md) - Description...
+- [`xxxx()`](xxxx.md) - Description...

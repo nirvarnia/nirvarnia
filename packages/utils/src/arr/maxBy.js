@@ -18,4 +18,4 @@ const people = [
 ]
 
 maxBy(people, 'age')
-// -> { name: 'Minato', age: 42 }
+// → { name: 'Minato', age: 42 }

@@ -3,7 +3,7 @@
  *
  * @see https://nirvarnia.com/docs/v1/reset
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
@@ -108,7 +108,7 @@ body {
 }
 
 /* Where font sizes of block-level elements differ from the default font size as
-set on the document body, the font-size value should be set relative to the root 
+set on the document body, the font-size value should be set relative to the root
 element (ie defined in root em units). */
 
 :--monospace-block-elements {

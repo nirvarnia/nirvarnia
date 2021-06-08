@@ -3,11 +3,11 @@
  *
  * @see https://nirvarnia.com/docs/v1/reset
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
-/* Set the page background color on the root element.  The page canvas collapses 
+/* Set the page background color on the root element.  The page canvas collapses
 to no less than 320px wide.  The horizontal scrollbar appears on screens smaller
 than 320px wide. */
 

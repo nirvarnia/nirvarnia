@@ -3,7 +3,7 @@
  *
  * @see https://nirvarnia.com/docs/v1/custom-selectors
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
@@ -21,7 +21,7 @@
 
 /* The elements to which to apply the clearfix hack by default. Elements such as
 <figure>, <blockquote>, <details>, <fieldset>, lists, and forms often have child
-elements that are floated.  It is convenient to have such containers wrap around 
+elements that are floated.  It is convenient to have such containers wrap around
 their child nodes automatically. */
 
 @custom-selector :--clearfixed-elements address, article, aside, blockquote, details, div, dl, fieldset, figure, footer, form, header, main, nav, ol, section, ul;

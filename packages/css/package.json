@@ -1,6 +1,35 @@
 {
   "name": "@nirvarnia/css",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "version": "0.0.0",
+  "description": "CSS components of the Nirvarnia web client application framework.",
+  "keywords": ["css", "framework", "utilities"],
+  "license": "MIT",
+  "author": "Kieran Potts <hello@kieranpotts.com> (https://kieranpotts.com/)",
+  "homepage": "https://nirvarnia.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirvarnia/packages"
+  },
+  "bugs": {
+    "url": "https://github.com/nirvarnia/packages/issues"
+  },
+  "main": "lib/main.js",
+  "style": "src/main.css",
+  "bin": {
+    "nirvarnia-css": "bin/nirvarnia-css.js"
+  },
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "src/**"
+  ],
+  "engines": {
+    "node": ">=14.15.0",
+    "yarn": ">=1.22.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  }
 }

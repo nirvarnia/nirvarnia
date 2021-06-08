@@ -3,12 +3,12 @@
  *
  * @see https://nirvarnia.com/docs/v1/reset
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
-/* Convert all multimedia containers – images, audo and video, iframes, objects,
-and embedded pluggins – from inline to block-level.  This is how they tend to be
+/* Convert all multimedia containers — images, audo and video, iframes, objects,
+and embedded pluggins — from inline to block-level.  This is how they tend to be
 used. */
 
 audio,

@@ -419,8 +419,7 @@ Most — but not all — of the icons are designed to be clear at small sizes, a
 
 Nirvarnia Icons are adapted from [RemixIcon](https://remixicon.com/) produced by [Remix Design Studio](https://github.com/Remix-Design).
 
+----
 
-## License
-
-Copyright © 2018+ [the contributors](https://github.com/nirvarnia/icons/graphs/contributors) and [RemixIcon contributors](https://github.com/Remix-Design/RemixIcon/graphs/contributors) \
-Distributed under the [Apache License Version 2.0](LICENSE.txt)
+Copyright © 2020-2021 Kieran Potts and contributors \
+Distributed under the [MIT License](./LICENSE.txt)

@@ -1,7 +1,5 @@
-[![Project Logo](https://raw.githubusercontent.com/kieranpotts/rootfiles/7c09a7f8e948c6c64f76aa5ba0b3f533d083ce28/docs/img/logo.svg?sanitize=true)](https://github.com/kieranpotts/rootfiles) 
+# Nirvarnia Packages
 
-
-# Nirvarnia
 **Nirvarnia is a design system for the graphical user interfaces of web applications.**
 
 <!--
@@ -13,12 +11,16 @@
 
 This code repository is a mono repo, encapsulating the source code for all the independent packages that make up the Nirvarnia framework, plus all its consumer-facing documentation.
 
-
 ## Documentation
+
+#### Contributing
+
+- [Xxxxx](./src/en/contributing/xxxx.md)
+- [Xxxxx](./src/en/contributing/xxxx.md)
+- [Xxxxx](./src/en/contributing/xxxx.md)
+- [Xxxxx](./src/en/contributing/xxxx.md)
 
 ----
 
-Crafted with ❤ in Bristol, UK
-
-Copyright © 2020+ Hacks, Inc. \
+Copyright © 2020-2021 Kieran Potts and contributors \
 Distributed under the [MIT License](LICENSE.txt)

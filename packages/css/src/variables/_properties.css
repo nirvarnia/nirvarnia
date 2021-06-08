@@ -3,7 +3,7 @@
  *
  * @see https://nirvarnia.com/docs/v1/custom-properties
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
@@ -12,12 +12,12 @@
   /* --- FONT FAMILIES AND WEIGHTS ------------------------------------------ */
 
   /* The "default" font family is set on the root element and allowed to cascade
-  throughout the document except where overridden by a class or a rule of higher 
+  throughout the document except where overridden by a class or a rule of higher
   specificity. */
 
   --font-family\=default: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
 
-  /* The sans-serif font family.  If the default family is sans, this may be set 
+  /* The sans-serif font family.  If the default family is sans, this may be set
   set to inherit, but you must still specify the normal and bold weights. */
 
   --font-family\=sans-serif: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
@@ -80,12 +80,12 @@
   has been no compounding of inherited sizes through the DOM tree.  Back in 2013
   we needed to use em units to resolve a Chrome bug, but that issue is resolved.
   @see http://stackoverflow.com/a/20206725 */
-  
+
   --font-size\=default: 1.6rem;
 
   /* Variations in the default font size. Note, there's no medium (=md) setting,
   the default body font size (set above) will be used for that. */
-  
+
   --font-size\=xxl: 2.4rem;
   --font-size\=xl:  2rem;
   --font-size\=lg:  1.8rem;
@@ -103,7 +103,7 @@
   --font-size\=h3: 1.8rem;
   --font-size\=h4: 1.6rem;
   --font-size\=h5: 1.6rem;
-  --font-size\=h6: 1.6rem; 
+  --font-size\=h6: 1.6rem;
 
   /* Set the default font sizes for elements rendered in the monospace font. For
   block-level rendering, such as <pre> blocks, use rems. For inline elements use

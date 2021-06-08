@@ -3,7 +3,7 @@
  *
  * @see https://nirvarnia.com/docs/v1
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
@@ -11,4 +11,3 @@
 @import './_logo.css';
 /*@import './_skip-to-main-content.css';*/
 @import './_rich-text.css';
- 

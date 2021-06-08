@@ -1,0 +1,5 @@
+Reference:
+
+https://techjoomla.com/blog/beyond-joomla/jquery-basics-getting-values-of-form-inputs-using-jquery.html
+https://github.com/danheberden/jquery-serializeForm
+https://www.npmjs.com/package/lodash-form-collector

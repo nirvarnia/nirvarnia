@@ -3,7 +3,7 @@
  *
  * @see https://nirvarnia.com/docs/v1
  *
- * @copyright 2020-2021 Kieran Potts
+ * @copyright 2020-2021 Kieran Potts and contributors
  * @license   MIT
  */
 
@@ -15,7 +15,7 @@
   line-height: var(--line-height\=h1);
 }
 
-.heading\=h2 { 
+.heading\=h2 {
   color: var(--color\=text\|h2);
   font-family: var(--font-family\=h2);
   font-size: var(--font-size\=h2);
