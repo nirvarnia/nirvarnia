@@ -2,7 +2,7 @@
  * TODO xxxxx.
  *
  * @see       {@link https://nirvarnia.com/|Nirvarnia}
- * @copyright 2020+ Kieran Potts Consultancy Ltd.
+ * @copyright Kieran Potts et al.
  * @license   MIT
  */
 

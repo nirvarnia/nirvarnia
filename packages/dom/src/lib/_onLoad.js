@@ -6,7 +6,7 @@
  * immediately.
  * @param {Function} fn Callback function.
  * @return void
- * @copyright 2020+ Kieran Potts Consultancy Ltd.
+ * @copyright Kieran Potts et al.
  * @license   MIT
  */
 

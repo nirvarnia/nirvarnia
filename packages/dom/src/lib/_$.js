@@ -9,7 +9,7 @@
  *
  * @package     Interface Framework
  * @author      Kieran Potts <hello@kieranpotts.com>
- * @copyright   2010-2016 Kieran Potts
+ * @copyright   Kieran Potts et al.
  * @license     http://mit-license.org/ The MIT License
  * @link        http://www.interfaceframework.org/
  */
@@ -324,7 +324,7 @@ __.fn.removeClass = function (cn) {
  *   $("#someDiv").css("background-color:green;color:#fff;");
  * });
  * ```
- * @copyright 2020+ Kieran Potts Consultancy Ltd.
+ * @copyright Kieran Potts et al.
  * @license   MIT
  */
 

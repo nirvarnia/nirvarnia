@@ -4,7 +4,7 @@
  * Injects one or more HTMLElements into the DOM immediately before another.
  * @param {HTMLElement} ref Reference DOM node.
  * @return {this}.
- * @copyright 2020+ Kieran Potts Consultancy Ltd.
+ * @copyright Kieran Potts et al.
  * @license   MIT
  */
 

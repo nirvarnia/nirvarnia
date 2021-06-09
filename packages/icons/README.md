@@ -421,5 +421,5 @@ Nirvarnia Icons are adapted from [RemixIcon](https://remixicon.com/) produced by
 
 ----
 
-Copyright © 2020-2021 Kieran Potts and contributors \
-Distributed under the [MIT License](./LICENSE.txt)
+Copyright © 2021 Kieran Potts _et al._ \
+[MIT License](./LICENSE.txt)

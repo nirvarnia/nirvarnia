@@ -12,7 +12,7 @@
  * Removes a class name from all elements in the collection.
  * @param {String} cn Class name.
  * @return {this}
- * @copyright 2020+ Kieran Potts Consultancy Ltd.
+ * @copyright Kieran Potts et al.
  * @license   MIT
  */
 
