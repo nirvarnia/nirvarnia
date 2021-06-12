@@ -1,4 +1,4 @@
-[![Nirvarnia](https://raw.githubusercontent.com/nirvarnia/branding/4118532ce84da24b7ae961f7fc4f0fe0f7a9bd3b/dist/banners/banner-01.png?sanitize=true)](https://github.com/nirvarnia)
+[![Nirvarnia](https://raw.githubusercontent.com/nirvarnia/branding/75219792b63f32e002173817be8462706af232ff/dist/banners/banner-02.jpg?sanitize=true)](https://github.com/nirvarnia)
 
 # @nirvarnia/doc
 
