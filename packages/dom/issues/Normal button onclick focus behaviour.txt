@@ -1,6 +1,6 @@
 /**
  * Resolve browser inconsistences when clicking on buttons
- * @see //zellwk.com/blog/inconsistent-button-behavior/
+ * @see <//zellwk.com/blog/inconsistent-button-behavior/>
  */
 export function normalizeButtonClickBehavior () {
   document.addEventListener('click', event => {
