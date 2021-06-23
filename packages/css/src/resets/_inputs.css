@@ -197,7 +197,7 @@ select::-moz-focus-inner {
 }
 
 /* This is needed to remove the focus ring from range inputs in some old Firefox
-releases. @see https://bugzilla.mozilla.org/show_bug.cgi?id=932410 */
+releases. @see //bugzilla.mozilla.org/show_bug.cgi?id=932410 */
 
 input[type="range"]::-moz-focus-outer {
   border: 0;

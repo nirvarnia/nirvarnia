@@ -79,7 +79,7 @@
   root font size. In this instance, rem and em units are equivalent, since there
   has been no compounding of inherited sizes through the DOM tree.  Back in 2013
   we needed to use em units to resolve a Chrome bug, but that issue is resolved.
-  @see http://stackoverflow.com/a/20206725 */
+  @see //stackoverflow.com/a/20206725 */
 
   --font-size\=default: 1.6rem;
 

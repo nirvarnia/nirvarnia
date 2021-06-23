@@ -61,7 +61,7 @@ But this happened instead:
   - Browser: e.g. Stock browser, Chrome, Safari
   - Version: e.g. v22
 
-- [ ] Node.js
+- [ ] Node
   - Version: e.g. v10.15
   - OS: e.g. macOS Mojave, Windows 10
   - Package manager: e.g. NPM, Yarn

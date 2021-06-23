@@ -12,7 +12,7 @@ import isSvg from '../../is/svg'
  */
 const html = (container, html) => {
   // innerHTML is not supported on SVG tags. DOMParser is the solution, but it's
-  // implemented in web browsers, not Node.js. Note: Standard/ESLint rules state
+  // implemented in web browsers, not Node. Note: Standard/ESLint rules state
   // that browser globals must be prefixed `window`.
   if (isSvg(container) && window && window.DOMParser) {
     var str = '<svg xmlns="http://www.w3.org/2000/svg">' + html + '</svg>'
