@@ -1,20 +1,34 @@
-# Change Log
+# Changelog
 
-## v0
+## Unreleased
 
-### Unreleased
+## vX.X.X - YYYY-MM-DD
 
-- xxx
-- xxx
-- xxx
-
-### v0.1.0 - YYYY-MM-DD
+### Added
 
 - xxx
 - xxx
 - xxx
 
-### v0.0.0 - YYYY-MM-DD
+### Changed
+
+- xxx
+- xxx
+- xxx
+
+### Deprecated
+
+- xxx
+- xxx
+- xxx
+
+### Removed
+
+- xxx
+- xxx
+- xxx
+
+### Fixed
 
 - xxx
 - xxx
