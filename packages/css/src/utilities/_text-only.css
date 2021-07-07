@@ -13,3 +13,51 @@
   left: -9999px;
   top: -9999px;
 }
+
+@media screen and (min-width: 25rem) { /* --breakpoint\@xs */
+  .text-only\@xs {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+}
+
+@media screen and (min-width: 37.5rem) { /* --breakpoint\@sm */
+  .text-only\@sm {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .text-only\@md {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+}
+
+@media screen and (min-width: 62.5rem) {
+  .text-only\@lg {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+}
+
+@media screen and (min-width: 75rem) {
+  .text-only\@xl {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+}
+
+@media screen and (min-width: 87.5rem) {
+  .text-only\@xxl {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+}
