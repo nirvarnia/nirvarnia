@@ -217,7 +217,9 @@ scrolling is preferred in this context, even on smaller screens, so the intended
 presentation of the text is preserved. */
 
 figure {
-  overflow: auto;
+  /* @todo: Remove this. This puts vertical scrollbars on all figures even where
+  they're not needed. */
+  /*overflow: auto;*/
 }
 
 /* Suppress text wrapping within <code> elements, unless it is in a preformatted
@@ -228,7 +230,7 @@ code {
 }
 
 pre {
-  overflow: auto;
+  /*overflow: auto;*/
   white-space: pre;
   word-wrap: normal;
 
