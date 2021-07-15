@@ -226,7 +226,8 @@ figure {
 text block. */
 
 code {
-  white-space: nowrap;
+  word-break: break-all;
+  /*white-space: nowrap;*/
 }
 
 pre {
