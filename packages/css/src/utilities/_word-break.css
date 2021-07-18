@@ -1,0 +1,12 @@
+/**
+ * Utility classes for the word-break property.
+ *
+ * @see https://nirvarnia.com/docs/v1
+ *
+ * @copyright Kieran Potts et al.
+ * @license   MIT
+ */
+
+.word-break\=normal { word-break: normal }
+.word-break\=break-all { word-break: break-all }
+.word-break\=keep-all { word-break: keep-all }
