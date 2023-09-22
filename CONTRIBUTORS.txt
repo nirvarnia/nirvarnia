@@ -1,0 +1,9 @@
+This file lists all people and organizations who are known to have some copyright claims to source code and other materials in this software project.
+
+The following people and organizations have contributed original works:
+
+* Kieran Potts
+
+Some source code and other materials have been ported from the following software projects, all of which have similar open source licensing terms.
+
+N/A

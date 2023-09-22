@@ -1,1 +1,5 @@
 = Nirvarnia
+
+''''
+
+Copyright © link:CONTRIBUTORS.txt[the contributors] — link:LICENSE.txt[MIT license]
